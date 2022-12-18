@@ -1,0 +1,25 @@
+h1 {
+  color: rgb(29, 29, 62);
+  text-align: center;
+  border-bottom: 2px solid maroon;
+  padding-bottom: 15px; /* Відстань від тексту до лінії */
+}
+
+h2 {
+  color: rgb(29, 29, 62);
+  text-align: center;
+}
+p {
+  color: rgb(29, 29, 62);
+}
+
+figure {
+  float: right;
+  width: 35%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 1em;
+  padding: 1em;
+}
