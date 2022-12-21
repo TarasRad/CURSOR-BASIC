@@ -1,0 +1,60 @@
+.ban1 {
+  margin-top: 228px;
+  width: 1440px;
+  height: 72px;
+  background: #0b2239;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.p1ban1 {
+  margin-left: 120px;
+  padding: 16px;
+  width: 922px;
+  height: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* or 154% */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.but1bun1 {
+    
+  float: right;
+  font-size: 12px;
+  padding: 10;
+  border: none;
+  background: none;
+  color: #4ad295;
+  text-decoration: underline;
+}
+.but2bun1 {
+  float: right;
+  font-size: 12px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 10px;
+  gap: 10px;
+  width: 130px;
+  height: 36px;
+  background: #4ad295;
+  border-radius: 2px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
