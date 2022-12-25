@@ -1,0 +1,107 @@
+.inlineblock2 {
+  display: flex;
+}
+
+.ban7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  gap: 32px;
+
+  width: 320px;
+  height: 260px;
+
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(186, 226, 255, 0.15) 23.96%,
+      rgba(229, 217, 255, 0.15) 71.87%,
+      rgba(255, 255, 255, 0.15) 100%
+    ),
+    #ffffff;
+  box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
+  border-radius: 20px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.h3ban7 {
+    margin-top: 0px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 48px;
+  /* identical to box height, or 171% */
+
+  text-align: center;
+
+  color: #15295a;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.p1ban7 {
+    margin-top: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #15295a;
+}
+
+.but1ban7{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 32px;
+gap: 10px;
+
+width: 121px;
+height: 44px;
+
+background: #4A7EFF;
+border-radius: 43px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+color: #FFFFFF;
+
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/gilroy-black.ttf");
+
+}
+
+@font-face {
+    
+    font-family: "Inter";
+    src: url("../fonts/Inter-Light.ttf");
+  }
