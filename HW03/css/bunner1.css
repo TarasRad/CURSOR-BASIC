@@ -2,16 +2,17 @@ body {
   background-color: #e5e5e5;
 }
 .ban1 {
+  align-items: center;
   display: flex;
-  width: 1440px;
-  height: 72px;
+  max-width: 1440px;
+  width: 100%;
   background: #0b2239;
+  margin: 224px 24px 24px 24px;
 }
 
 .p1ban1 {
   padding-left: 120px;
   width: 922px;
-  height: 40px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;

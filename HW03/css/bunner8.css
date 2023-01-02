@@ -5,8 +5,9 @@
   align-items: flex-end;
   padding: 16px;
   gap: 12px;
-  width: 320px;
-  height: 137px;
+  max-width: 320px;
+  width: 100%;
+  height:fit-content;
   background: #ffffff;
   box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
   border-radius: 4px;
@@ -19,6 +20,7 @@
   font-size: 14px;
   line-height: 20px;
   color: #000000;
+  margin-bottom: 12px;
 }
 
 .buttonsban8 {
@@ -28,6 +30,7 @@
 }
 
 .but1ban8 {
+  padding: 0;
   background: none;
   border: none;
   font-family: "SF Pro Text";
@@ -37,40 +40,26 @@
   line-height: 17px;
   text-align: center;
   color: #6666ff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+
 }
 
 .but2ban8 {
+  padding: 8px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 8px;
   gap: 10px;
-
-  width: 64px;
-  height: 33px;
-
   background: #6666ff;
   border-radius: 4px;
-
   font-family: "SF Pro Text";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  /* identical to box height */
-
   text-align: center;
-
   color: #ffffff;
-  /* Inside auto layout */
 
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 @font-face {
