@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cursor-Basic - HW04</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header></header>
+    <div class="section">
+      <div class="contact">
+        <h1>Contact</h1>
+        <p class="pclass">
+          Questions or concerns? Just fill out the form below and our support
+          team will get back to you within 24 hours
+        </p>
+      </div>
+
+      <div class="form">
+        <form action="">
+          <div class="flname">
+            <input
+              class="fname"
+              type="text"
+              name="firstname"
+              value="First Name"
+            />
+            <br />
+            <input
+              class="lname"
+              type="text"
+              name="lastname"
+              value="Last Name"
+            />
+          </div>
+          <input
+            class="phone"
+            type="tel"
+            name="phonenumber"
+            value="Phone Number"
+            pattern="[0-9]{10}"
+            required
+          />
+          <br />
+          <select class="sservice" name="" id="">
+            <option value="">Select Service</option>
+            <!--
+                <option value="volvo">service 1</option>
+            <option value="saab">service 2</option>
+            <option value="fiat">service 3</option>
+            <option value="audi">service 4</option>
+        -->
+          </select>
+          <button class="actionform">SUBMIT NOW</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="address">
+        <h3>Address</h3>
+        <p class="paddress">
+          Pipang Ltd, Griva Digeni,<br />81-83 Jacovides Tower, 1st Floor<br />1090
+          Picosia USA
+        </p>
+      </div>
+      <div class="service">
+        <h3 class="h3service">Service</h3>
+        <a class="aservice" href="#">Overview</a>
+        <br />
+        <a class="aservice" href="#">Features</a>
+        <br />
+        <a class="aservice" href="#">Technologies</a>
+        <br />
+        <a class="aservice" href="#">Term &amp Conditions</a>
+        <br />
+        <a class="aservice" href="#">Privecy</a>
+      </div>
+      <div class="getintouch">
+        <h3>Get in Touch</h3>
+        <p>
+          <a class="mail" href="mailto:info@cloudbudget.com"
+            >info@cloudbudget.com</a
+          >
+        </p>
+        <p class="ptel">
+          <a class="tel" href="tel:+1 844-721-7120">+1 844-721-7120</a>
+        </p>
+
+        <div class="social">
+          <div class="facebook"></div>
+          <div class="linked"></div>
+          <div class="twitter"></div>
+        </div>
+      </div>
+      <div class="support">
+        <h3>We Support</h3>
+        <div class="payments">
+          <img src="./img/payment.png" alt="" />
+        </div>
+      </div>
+
+      <span class="copyright"></span>
+    </footer>
+  </body>
+</html>
