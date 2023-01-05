@@ -4,12 +4,65 @@ body {
 * {
   box-sizing: border-box;
 }
-main {
-  display: block;
+
+.topsection {
+  background-color: #ed4c5c;
+  display: flex;
   width: 100%;
   height: 500px;
-  background: url(../img/App\ Download\ Section.png);
 }
+
+.righttop {
+  padding: 122px 81px 24px 165px;
+}
+.h1top {
+  width: 445px;
+  height: 107px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #ffffff;
+}
+
+main p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  width: 445px;
+  height: 64px;
+  text-align: justify;
+
+  color: #ffffff;
+}
+
+.downlink {
+  display: flex;
+}
+.playmarket {
+  content: url(../img/ion-logo-google-playstore.svg);
+}
+.appstore {
+  content: url(../img/ion-logo-apple-appstore.svg);
+  margin-left: 28px;
+}
+.windows {
+  content: url(../img/simple-icons_windows.svg);
+  margin-left: 25px;
+}
+
+.lefttop {
+  padding-top: 94px;
+}
+
+.slider {
+  margin-left: 81px;
+}
+
 .section {
   background: #ffffff;
   display: flex;
@@ -20,14 +73,10 @@ main {
   padding-bottom: 0;
 }
 
-.contact {
-}
-
 h1 {
   width: 445px;
   height: 107px;
-  left: 176px;
-  top: 617px;
+
   font-family: "Lato";
   font-style: normal;
   font-weight: 600;
@@ -39,8 +88,6 @@ h1 {
 .pclass {
   width: 434px;
   height: 64px;
-  left: 176px;
-  top: 713px;
 
   font-family: "Lato";
   font-style: normal;
@@ -135,7 +182,7 @@ h1 {
 }
 
 footer {
-  margin-top: 630px;
+  margin-top: 123px;
   padding: 85px 196px 86px 166px;
   display: flex;
   height: 435px;
