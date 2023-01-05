@@ -14,55 +14,51 @@
     />
   </head>
   <body>
-    <header></header>
-    <div class="section">
-      <div class="contact">
-        <h1>Contact</h1>
-        <p class="pclass">
-          Questions or concerns? Just fill out the form below and our support
-          team will get back to you within 24 hours
-        </p>
-      </div>
+    <main>
+      <img src="./img/App Download Section.png" alt="" />
+      <div class="section">
+        <div class="contact">
+          <h1>Contact</h1>
+          <p class="pclass">
+            Questions or concerns? Just fill out the form below and our support
+            team will get back to you within 24 hours
+          </p>
+        </div>
 
-      <div class="form">
-        <form action="">
-          <div class="flname">
+        <div class="form">
+          <form action="">
+            <div class="flname">
+              <input
+                class="fname"
+                type="text"
+                name="firstname"
+                value="First Name"
+              />
+              <br />
+              <input
+                class="lname"
+                type="text"
+                name="lastname"
+                value="Last Name"
+              />
+            </div>
             <input
-              class="fname"
-              type="text"
-              name="firstname"
-              value="First Name"
+              class="phone"
+              type="tel"
+              name="phonenumber"
+              value="Phone Number"
+              pattern="[0-9]{10}"
+              required
             />
             <br />
-            <input
-              class="lname"
-              type="text"
-              name="lastname"
-              value="Last Name"
-            />
-          </div>
-          <input
-            class="phone"
-            type="tel"
-            name="phonenumber"
-            value="Phone Number"
-            pattern="[0-9]{10}"
-            required
-          />
-          <br />
-          <select class="sservice" name="" id="">
-            <option value="">Select Service</option>
-            <!--
-                <option value="volvo">service 1</option>
-            <option value="saab">service 2</option>
-            <option value="fiat">service 3</option>
-            <option value="audi">service 4</option>
-        -->
-          </select>
-          <button class="actionform">SUBMIT NOW</button>
-        </form>
+            <select class="sservice" name="" id="">
+              <option value="">Select Service</option>
+            </select>
+            <input class="actionform" type="submit" value="SUBMIT NOW" />
+          </form>
+        </div>
       </div>
-    </div>
+    </main>
     <footer>
       <div class="address">
         <h3>Address</h3>
@@ -70,6 +66,7 @@
           Pipang Ltd, Griva Digeni,<br />81-83 Jacovides Tower, 1st Floor<br />1090
           Picosia USA
         </p>
+        <p class="copyright">Copyright 2018 CloudBudget</p>
       </div>
       <div class="service">
         <h3 class="h3service">Service</h3>
@@ -107,6 +104,5 @@
         </div>
       </div>
     </footer>
-    <span class="copyright">Copyright 2018 CloudBudget</span>
   </body>
 </html>
