@@ -8,53 +8,37 @@ body {
 div {
   display: block;
   width: 100%;
-  margin: 30px;
   padding-top: 60px;
-  vertical-align: middle;
-}
-table,
-th,
-td {
-  border: 1px solid rgb(129, 127, 127);
-  border-collapse: collapse;
-  vertical-align: middle;
-  width: 50%;
-  height: 40px;
-}
-
-tr {
 }
 table {
+  border-collapse: collapse;
   width: 800px;
-  height: 160px;
   margin: 35px;
   color: aliceblue;
+  table-layout: fixed;
 }
-.thname {
-  border-right: none;
-  padding: 0;
-}
-.thmail {
-  display: flex;
-}
-
 .triangle {
   margin-left: 5px;
   width: 6px;
   color: aliceblue;
   transform: rotate(90deg);
 }
-
 .imgfile {
   width: 13px;
   margin-right: 5px;
   margin-left: 3px;
 }
 
-.rtd {
-  border-left: none;
+td {
+  padding: 10px;
+  border: 1px solid rgb(129, 127, 127);
+  vertical-align: middle;
+  width: 50%;
+  height: 50px;
   justify-content: space-between;
+  padding-right: 5px;
 }
+
 .search {
   height: 35px;
   border-radius: 5px;
@@ -63,14 +47,37 @@ table {
   background-size: 20px;
   background-position: 10px;
   border: none;
-  margin-left: 160px;
   background-color: rgb(207, 208, 209);
   padding-left: 40px;
+  margin-left: 160px;
 }
 
-span {
-  margin-left: 5px;
+.tddots {
+  display: flex;
+  width: 100%;
+  padding: 12px;
+  vertical-align: middle;
+  border: none;
+  border-right: 1px solid rgb(129, 127, 127);
+  border-bottom: 1px solid rgb(129, 127, 127);
 }
-.spanname {
-  margin: 0;
+
+.tdfile {
+  width: 100%;
+  padding: 12px;
+  vertical-align: middle;
+  border: none;
+  border-left: 1px solid rgb(129, 127, 127);
+  border-bottom: 1px solid rgb(129, 127, 127);
+}
+.name {
+  border-right: none;
+}
+
+.date {
+  border-left: none;
+}
+#search {
+  justify-content: space-between;
+  align-items: center;
 }
