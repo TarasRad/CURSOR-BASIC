@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cursor-Basic - HW05</title>
     <link rel="stylesheet" href="./style.css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
   </head>
   <body>
     <div>
@@ -19,23 +21,32 @@
           <td class="date">
             <span><b>Date</b></span>
           </td>
+          <td class="dots">
+          </td>
         </tr>
         <tr>
           <td class="tdfile"><span>File.pdf</span></td>
-          <td class="tddots">
-            <span>3 min ago</span> <span class="dots">...</span>
+          <td> <span>3 min ago</span></td>
+          <td class="dots">
+            <b>...</b>
           </td>
         </tr>
         <tr>
           <td class="tdfile"><span>File.pdf</span></td>
           <td class="tddots">
-            <span>Yesterday</span><span class="dots">...</span>
+            <span>Yesterday</span>
+          </td>
+          <td class="dots">
+            <b>...</b>
           </td>
         </tr>
         <tr>
           <td class="tdfile"><span>File.pdf</span></td>
           <td class="tddots">
-            <span>June 1st,2019</span><span class="dots">...</span>
+            <span>June 1st,2019</span>
+          </td>
+          <td class="dots">
+            <b>...</b>
           </td>
         </tr>
       </table>
@@ -50,23 +61,35 @@
           <td class="date">
             <span><b>Date</b></span>
           </td>
-        </tr>
-        <tr>
-          <td class="tdfile"><input type="checkbox" /><span>File.pdf</span></td>
-          <td class="tddots">
-            <span>3 min ago</span> <span class="dots">...</span>
+          <td class="dots">
           </td>
         </tr>
         <tr>
           <td class="tdfile"><input type="checkbox" /><span>File.pdf</span></td>
           <td class="tddots">
-            <span>Yesterday</span><span class="dots">...</span>
+            <span>3 min ago</span> 
+          </td>
+          <td class="dots">
+            <b>...</b>
+          </td>
+          
+        </tr>
+        <tr>
+          <td class="tdfile"><input type="checkbox" /><span>File.pdf</span></td>
+          <td class="tddots">
+            <span>Yesterday</span>
+          </td>
+          <td class="dots">
+            <b>...</b>
           </td>
         </tr>
         <tr>
           <td class="tdfile"><input type="checkbox" /><span>File.pdf</span></td>
           <td class="tddots">
-            <span>June 1st,2019</span><span class="dots">...</span>
+            <span>June 1st,2019</span>
+          </td>
+          <td class="dots">
+            <b>...</b>
           </td>
         </tr>
       </table>
@@ -80,12 +103,26 @@
           <td class="date">
             <span
               ><b>Date</b
-              ><span>
+              ></span>
+              
+<!--
+              <span>
                 <input
                   class="search"
                   type="search"
                   placeholder="Search" /></span
-            ></span>
+            >
+          
+-->
+          </td>
+          <td class="td_search">
+            <form action="">
+            <i class="fa fa-search"></i>
+
+              <input class="search" type="search" placeholder="       Search">
+            </form>
+
+              
           </td>
         </tr>
         <tr>
@@ -95,7 +132,10 @@
             >
           </td>
           <td class="tddots">
-            <span>3 min ago</span> <span class="dots">...</span>
+            <span>3 min ago</span>
+          </td>
+          <td class="dots">
+            <b>...</b>
           </td>
         </tr>
         <tr>
@@ -105,7 +145,10 @@
             >
           </td>
           <td class="tddots">
-            <span>Yesterday</span><span class="dots">...</span>
+            <span>Yesterday</span>
+          </td>
+          <td class="dots">
+            <b>...</b>
           </td>
         </tr>
         <tr>
@@ -115,7 +158,10 @@
             >
           </td>
           <td class="tddots">
-            <span>June 1st,..</span> <span class="dots">...</span>
+            <span>June 1st,..</span>
+          </td>
+          <td class="dots">
+            <b>...</b>
           </td>
         </tr>
       </table>

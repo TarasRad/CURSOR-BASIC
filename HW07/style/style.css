@@ -1,0 +1,20 @@
+body {
+  background: #e5e5e5;
+  max-width: 1600px;
+  width: 100%;
+  padding: 50px 112px 91px 240px;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/AvenirLT-Book.ttf");
+}
+@font-face {
+  font-family: "'Helvetica'";
+  src: url("../fonts/Helvetica-Bold.ttf");
+}
+@font-face {
+    font-family: "'Helvetica'";
+    src: url("../fonts/Helvetica.ttf");
+  }
+  

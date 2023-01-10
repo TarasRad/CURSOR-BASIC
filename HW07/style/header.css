@@ -1,0 +1,48 @@
+header {
+  display: flex;
+  max-width: 1117px;
+  width: 100%;
+  justify-content: space-between;
+}
+.logo {
+  width: 45px;
+  height: 35px;
+}
+.nav {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.nav_menu {
+  margin-top: 35px;
+
+  text-decoration: none;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+.demo_btn {
+  margin-left: 418px;
+  justify-content: space-between;
+  padding: 17px 29px 17px 29px;
+  width: 210px;
+  height: 60px;
+  background: #ffffff;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 160%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+  color: #212353;
+}
