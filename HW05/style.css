@@ -1,25 +1,29 @@
-* {
-  box-sizing: border-box;
-}
+
 body {
   background-color: rgb(45, 45, 45);
 }
 
 div {
   display: block;
-  width: 100%;
+  width: 800px;
   padding-top: 60px;
 }
 table {
-  width: 800px;
+  width: 100%;
   margin: 35px;
   color: aliceblue;
   table-layout: fixed;
-  border: 0.5px solid white;
-
-
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255);
 
 }
+
+tr, td:not(:last-of-type){
+  border-bottom: 1px solid #fff;
+
+  }
 .triangle {
   margin-left: 5px;
   width: 6px;
@@ -31,27 +35,18 @@ table {
   margin-right: 5px;
   margin-left: 3px;
 }
-.tdfile {
-  width: 100%;
+.name {
+  width: 50%;
   padding: 12px;
   vertical-align: middle;
   
 }
-.dots {
-text-align: right;
-vertical-align: middle;
-align-items: center;
+tr {
+  height: 50px;
 }
 
-tr{
 
-}
-td{
-  border: 0.1px solid #ffffff;
-  padding: 10px 30px;
-  color: #FFF;
-}
-
+/*
 tr:first-child td:first-child{
   border-top-left-radius: 10px;
 }
@@ -64,23 +59,41 @@ tr:first-child td:last-child{
 tr:last-child td:last-child{
   border-bottom-right-radius: 10px;
 }
+*/
+.search {
+  background: rgb(171, 170, 170);
 
+}
+form {
+  margin-right: 20px;
+}
 .input {
-  padding: 15px 0;
+  padding: 5px 0;
+  border: none;
+  height: 30px;
+color: #fff;
   }
+  
 i {
   position: absolute;
-  margin: 0;
+  top: auto;
+
 }
 
-.search {
-  width: 180px;
-  background: rgb(179, 177, 177);
+.dots {
+align-items: flex-end;
+float: right;
+padding-top: 10px;
+padding-right: 20px;
+
+
+}
+form {
+  float: right;
+  background: rgb(94, 91, 91);
+
 }
 
-.td_search {
-  width: 300px;
-      vertical-align: middle;
-      white-space: nowrap;
-      position: relative;
+.date, .dots {
+  width: 25%;
 }
