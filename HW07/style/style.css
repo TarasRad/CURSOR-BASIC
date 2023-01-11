@@ -4,7 +4,10 @@ body {
   width: 100%;
   padding: 50px 112px 91px 240px;
 }
-
+main {
+  max-width: 1600px;
+  width: 100%;
+}
 @font-face {
   font-family: "Avenir";
   src: url("../fonts/AvenirLT-Book.ttf");

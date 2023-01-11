@@ -5,7 +5,6 @@ footer {
 }
 .footer_headline {
   display: block;
-  max-width: 1600px;
   width: 100%;
   height: 2px;
   background: #9c69e2;
@@ -76,6 +75,7 @@ footer {
   color: #212353;
 }
 .img_demo {
+  margin-left: 20px;
 }
 
 .info {
@@ -155,11 +155,14 @@ footer {
   display: block;
   margin-left: 50px;
 }
-.social_icon {
-  width: 50px;
-  height: 50px;
+.social_icon_tw,
+.social_icon_in {
+  margin-left: 14px;
 }
-.data_info {
+
+.data_info,
+a {
+  text-decoration: none;
   line-height: 2.5;
   font-family: "Avenir";
   font-style: normal;
@@ -177,8 +180,6 @@ footer {
 }
 .copyright {
   display: flex;
-  margin-top: 93px;
-  max-width: 360px;
   width: 100%;
   font-family: "Avenir";
   font-style: normal;
@@ -193,6 +194,28 @@ footer {
 
   color: #212353;
 }
+.copyright_data {
+  width: 360px;
+  height: 50px;
+  margin-top: 93px;
+}
 .chat {
   margin-top: 88px;
+}
+.a_contact {
+  display: block;
+  width: 335px;
+  height: 60px;
+  margin-top: 10px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+
+  /* 2 */
+
+  color: #212353;
 }
