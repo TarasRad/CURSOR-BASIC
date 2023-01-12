@@ -1,7 +1,11 @@
 .section1 {
-  display: block;
+  display: flex;
   max-width: 1248px;
   width: 100%;
+  margin: 0 auto;
+  background: url(../img/section1.png);
+  background-repeat: no-repeat;
+  background-position: 120% 170%;
 }
 h1 {
   width: 645px;
@@ -11,7 +15,6 @@ h1 {
   font-weight: 700;
   font-size: 80px;
   line-height: 110%;
-  display: flex;
   align-items: center;
   color: #212353;
 }
@@ -26,7 +29,6 @@ h1 {
   color: #4b5d68;
 }
 .h1_btn {
-  width: 170px;
   height: 60px;
   background: #9c69e2;
   border-radius: 50px;
@@ -36,18 +38,13 @@ h1 {
   font-weight: 900;
   font-size: 18px;
   line-height: 160%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
+  margin-top: 66px;
   color: #ffffff;
 }
-.section1_right {
-  display: block;
-  position: absolute;
+/*.right_section1 {
+  display: flex;
   width: 885px;
   height: 468px;
   background: url(../img/section1.png);
-  left: 603px;
-  top: 336px;
 }
+*/

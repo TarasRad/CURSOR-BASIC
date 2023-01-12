@@ -2,11 +2,10 @@ body {
   background: #e5e5e5;
   max-width: 1600px;
   width: 100%;
-  padding: 50px 112px 91px 240px;
+  margin: 0 auto;
 }
 main {
-  max-width: 1600px;
-  width: 100%;
+  
 }
 @font-face {
   font-family: "Avenir";

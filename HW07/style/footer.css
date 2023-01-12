@@ -2,6 +2,7 @@ footer {
   display: block;
   max-width: 1118px;
   width: 100%;
+  margin: 0 auto;
 }
 .footer_headline {
   display: block;
