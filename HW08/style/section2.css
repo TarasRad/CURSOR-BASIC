@@ -1,0 +1,92 @@
+.section2 {
+  display: block;
+  max-width: 1439px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.block-top-section2 {
+  display: grid;
+  width: 1110px;
+  height: 458px;
+
+  margin: 0 165px;
+  gap: 15px;
+
+  grid-template-columns: 445px 303px 302px;
+  grid-template-rows: 225px 204px;
+
+  margin-top: 71px;
+}
+.woomen-big {
+  background: url(../img/women_collection_1.png);
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.woomen-small {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+
+  background: #efeff4;
+  border-radius: 16px;
+}
+.dresses {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+
+  background: url(../img/dresses_category.png);
+}
+.denim {
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+
+  background: url(../img/denim_jackets_category.png);
+}
+
+.h2-women-collection-big {
+  font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 45px;
+color: #FFFFFF;
+margin-top: 268px;
+margin-left: 32px;
+}
+
+.p-women-collection-big{
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+margin-left: 32px;
+
+color: #FFFFFF;
+}
+
+.btn-women-collection-big {
+  width: 93px;
+height: 30px;
+
+background: #FFFFFF;
+opacity: 0.4;
+border-radius: 8px;
+padding: 22px;
+border: none;
+margin-left: 32px;
+
+}
+.btn-popular {
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 30px;
+color: #ffffff;
+}

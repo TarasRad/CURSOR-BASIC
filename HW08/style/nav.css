@@ -27,7 +27,8 @@ color: #000000;
 	left: 0; bottom: -5px;
 	width: 0;
 	height: 3px;
-	background-color: red;
+	background-color: #EDA3B5;
+    
 }
 
 .underline:hover:before {
@@ -37,4 +38,9 @@ color: #000000;
 
 .underline::before {
 	transition: width 0.35s;
+  
+
 }
+.underline:hover {
+    color: #EDA3B5; /* Колір посилання при наведенні на нього курсора миші */
+    }

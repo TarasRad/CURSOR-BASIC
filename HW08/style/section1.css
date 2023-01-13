@@ -1,0 +1,39 @@
+.section1 {
+  display: block;
+  width: 1439px;
+  height: 569px;
+  background: url(../img/bg-section1.png);
+  padding-left: 164px;
+}
+.h1-section1 {
+  width: 361px;
+  font-family: "Playfair Display", serif;
+  font-family: "Rochester", cursive;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 67px;
+  color: #ffffff;
+  padding-top: 103px;
+}
+.p-section1 {
+  width: 446px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-top: 13px;
+  margin-bottom: 57px;
+}
+.btn-show-more-section1 {
+  background: #1b2437;
+  border-radius: 15px;
+  padding: 23px 78px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}

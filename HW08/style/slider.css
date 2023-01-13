@@ -1,0 +1,37 @@
+
+.section3{
+    display: block;
+    max-width: 1110px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 16px;
+    background: #9c69e2;
+
+  }
+
+.slider-child {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+
+
+
+
+  /* .slider-child {
+    display: flex;
+    max-width: 1110px;
+    width: 100%;
+}
+
+.slider-custom {
+}
+.picture1-slider1{
+    display: block;
+    width: 255px;
+    height: 207px;
+padding: 40px 50px 40px 49px;
+margin: 0;
+}
+ */
