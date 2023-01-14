@@ -14,12 +14,11 @@
   }
 
   .slider-custom {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
- 
+    
   }
 .slider-child {
-
+    display: flex;
+ 
    
 }
 
@@ -43,3 +42,14 @@ padding: 40px 50px 40px 49px;
 margin: 0;
 }
  */
+ .h3-divs {
+  font-family: 'Playfair Display', serif;
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+
+
+color: #000000;
+ }

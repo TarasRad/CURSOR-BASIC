@@ -1,0 +1,30 @@
+.section4 {
+  display: block;
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+}
+.divs {
+  display: block;
+  width: 350px;
+  height: 487px;
+  border-radius: 16px 16px 16px 16px;
+}
+.div1 {
+  display: block;
+  background: url(../img/section4/1.png) no-repeat;
+  padding-top: 260px;
+}
+.data-div1 {
+  background: #ffffff;
+  display: block;
+}
+.bottom-div-divs {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 2px 5px 45px rgba(237, 163, 181, 0.25);
+  border-radius: 16px;
+}
+.h3-divs {
+}
