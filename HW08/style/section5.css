@@ -30,32 +30,32 @@
   padding: 27px 60px 25px 60px;
 }
 .phone-map {
-  justify-content: center;
 }
 .location-map {
-  justify-content: center;
-  align-items: center;
 }
 .img-phone {
-  margin-left: 60px;
-  margin-bottom: 20.24px;
+  margin-left: 50px;
 }
 .img-location {
+  margin-left: 15px;
 }
 .img-email {
-  margin-right: 69.33px;
 }
 .phone {
+  display: block;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 30px;
-
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   color: #000000;
   margin-top: 20px;
 }
 .address {
+  display: block;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 600;
@@ -64,8 +64,12 @@
   text-align: center;
   color: #000000;
   margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .email {
+  display: block;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 600;
