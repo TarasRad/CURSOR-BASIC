@@ -1,36 +1,32 @@
 header {
-    display: flex;
-    max-width: 1110px;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: space-between;
-    padding-top: 16px;
+  display: flex;
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 16px;
 }
 
-
 .logo {
-    font-family: 'Rochester', cursive;
-    font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 41px;
-
-/* Black */
-
-color: #1B2437;
+  font-family: "Rochester", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  color: #1b2437;
 }
 
 .social {
-    display: flex;
-    max-width: 124px;
-    width: 100%;
-    justify-content: space-between;
-    margin-top: 15px;
+  display: flex;
+  max-width: 124px;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 15px;
 }
 .user-menu {
-    display: flex;
-    max-width: 137.92px;
-    width: 100%;
-    justify-content: space-between;
-    margin-top: 9px;
+  display: flex;
+  max-width: 137.92px;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 9px;
 }

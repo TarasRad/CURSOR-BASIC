@@ -1,92 +1,135 @@
 .section2 {
   display: block;
-  max-width: 1439px;
+  max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+  margin-top: 71px;
+  gap: 30px;
 }
 
 .block-top-section2 {
   display: grid;
   width: 1110px;
   height: 458px;
-
   margin: 0 165px;
-  gap: 15px;
-
   grid-template-columns: 445px 303px 302px;
   grid-template-rows: 225px 204px;
-
-  margin-top: 71px;
+  margin: 0 auto;
+  gap: 30px;
 }
-.woomen-big {
+.women-big {
+  max-width: 445px;
+  width: 100%;
+  height: 458px;
   background: url(../img/women_collection_1.png);
-
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 3;
 }
-.woomen-small {
+.women-small {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
-
   background: #efeff4;
   border-radius: 16px;
+  padding: 53px 0 52px 22px;
+}
+.h3-women-small {
+  max-width: 281px;
+  width: 100%;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 45px;
+  color: #1b2437;
 }
 .dresses {
+  width: 302px;
+  height: 225px;
   grid-column: 3 / 4;
   grid-row: 1 / 2;
-
   background: url(../img/dresses_category.png);
+  padding: 53px 144px 97px 39px;
+  border-radius: 16px;
+}
+.span-dresses {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.h3-dresses {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 45px;
+  color: #ffffff;
 }
 .denim {
+  max-width: 635px;
+  width: 100%;
+  height: 204px;
   grid-column: 2 / 4;
   grid-row: 2 / 3;
-
   background: url(../img/denim_jackets_category.png);
+  border-radius: 16px;
+  padding: 64px 322px 65px 22px;
 }
-
+.span-denim {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #1b2437;
+}
+.h3-denim {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 45px;
+  color: #1b2437;
+}
 .h2-women-collection-big {
-  font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 900;
-font-size: 32px;
-line-height: 45px;
-color: #FFFFFF;
-margin-top: 268px;
-margin-left: 32px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 45px;
+  color: #ffffff;
+  margin-top: 268px;
+  margin-left: 32px;
 }
 
-.p-women-collection-big{
-  font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 188% */
-
-margin-left: 32px;
-
-color: #FFFFFF;
+.p-women-collection-big {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-left: 32px;
+  color: #ffffff;
 }
 
-.btn-women-collection-big {
-  width: 93px;
-height: 30px;
-
-background: #FFFFFF;
-opacity: 0.4;
-border-radius: 8px;
-padding: 22px;
-border: none;
-margin-left: 32px;
-
-}
 .btn-popular {
-  font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 30px;
-color: #ffffff;
+  max-width: 93px;
+  height: 30px;
+  width: 100%;
+  background: rgb(rgba(255, 255, 255, 0.4));
+  border-radius: 8px;
+  padding: 0 22px;
+  border: none;
+  margin-left: 32px;
+  margin-top: 8px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: rgb(rgba(255, 255, 255));
 }

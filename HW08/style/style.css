@@ -1,13 +1,12 @@
 body {
-    display: block;
-    max-width: 1439px;
-    width: 100%;
-    margin: 0 auto;
-    background: #E5E5E5;}
-
-
-
-
+  display: block;
+  max-width: 1439px;
+  width: 100%;
+  background: #e5e5e5;
+}
+main {
+  margin: 0 auto;
+}
 
 *,
 *::before,
@@ -42,7 +41,6 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-
 }
 
 ul[class],
@@ -59,7 +57,6 @@ img {
   display: block;
 }
 
-/* Указываем понятную периодичность в потоке данных у article*/
 article > * + * {
   margin-top: 1em;
 }
@@ -71,10 +68,4 @@ select {
   font: inherit;
 }
 
-
-
-
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rochester&display=swap");

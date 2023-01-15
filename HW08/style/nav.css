@@ -1,46 +1,43 @@
 nav {
-    display: flex;
-    max-width: 557px;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: space-around;
-    margin-top: 52px;
+  display: flex;
+  max-width: 557px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-top: 52px;
 }
 .underline {
-	position: relative;
-	font-size: 1.25rem;
-	text-decoration: none;
+  position: relative;
+  font-size: 1.25rem;
+  text-decoration: none;
 
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 37px;
 
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 28px;
-line-height: 37px;
-
-color: #000000;
+  color: #000000;
 }
 
 .underline::before {
-	content: '';
-	position: absolute;
-	left: 0; bottom: -5px;
-	width: 0;
-	height: 3px;
-	background-color: #EDA3B5;
-    
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 3px;
+  background-color: #eda3b5;
 }
 
 .underline:hover:before {
-	width: 80%;
-   margin-left: 10%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .underline::before {
-	transition: width 0.35s;
-  
-
+  transition: width 0.35s;
 }
 .underline:hover {
-    color: #EDA3B5; /* Колір посилання при наведенні на нього курсора миші */
-    }
+  color: #eda3b5; /* Колір посилання при наведенні на нього курсора миші */
+}

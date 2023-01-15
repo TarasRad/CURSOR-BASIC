@@ -48,4 +48,8 @@ header {
   letter-spacing: 0.005em;
   color: #212353;
   margin-right: 240px;
+  justify-content: space-between;
+}
+.arrow_btn {
+  margin-left: 20px;
 }
