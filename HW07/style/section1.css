@@ -5,7 +5,8 @@
   margin: 0 auto;
   background: url(../img/section1.png);
   background-repeat: no-repeat;
-  background-position: 120% 170%;
+  background-position: 350px 200px;
+  padding-bottom: 100px;
 }
 h1 {
   width: 645px;
@@ -17,6 +18,7 @@ h1 {
   line-height: 110%;
   align-items: center;
   color: #212353;
+  margin-top: 130px;
 }
 .h1_text {
   width: 380px;
@@ -27,6 +29,7 @@ h1 {
   font-size: 18px;
   line-height: 160%;
   color: #4b5d68;
+  margin: 50px 0 50px 0;
 }
 .h1_btn {
   height: 60px;

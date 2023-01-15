@@ -3,6 +3,7 @@ footer {
   max-width: 1118px;
   width: 100%;
   margin: 0 auto;
+  padding-bottom: 60px;
 }
 .footer_headline {
   display: block;
@@ -16,6 +17,7 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
+  margin-bottom: 153px;
 }
 .data_demo {
 }
@@ -41,10 +43,11 @@ footer {
 }
 
 .btn_demo {
+  display: flex;
 }
 .learn_more {
-  width: 170px;
-  height: 60px;
+  display: flex;
+
   background: #f063b8;
   border-radius: 50px;
   padding: 15px 37px;
@@ -59,8 +62,8 @@ footer {
   margin-right: 30px;
 }
 .request_demo {
-  width: 210px;
-  height: 60px;
+  display: flex;
+
   background: #ffffff;
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
   border-radius: 50px;
@@ -70,7 +73,6 @@ footer {
   font-weight: 900;
   font-size: 16px;
   line-height: 160%;
-  margin-top: 23px;
   letter-spacing: 0.005em;
   justify-content: space-between;
   color: #212353;
@@ -155,6 +157,9 @@ footer {
 .social {
   display: block;
   margin-left: 50px;
+}
+.social_icon {
+  display: flex;
 }
 .social_icon_tw,
 .social_icon_in {

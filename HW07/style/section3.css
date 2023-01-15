@@ -65,3 +65,8 @@
   justify-content: space-between;
   margin-top: 149px;
 }
+.btn_section3 {
+  display: flex;
+  width: 127px;
+  justify-content: space-around;
+}

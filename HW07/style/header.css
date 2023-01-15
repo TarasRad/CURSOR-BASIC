@@ -1,11 +1,10 @@
 header {
   display: flex;
-  max-width: 1117px;
+  max-width: 1248px;
   width: 100%;
   justify-content: space-between;
   padding-top: 62px;
   margin: 0 auto;
- 
 }
 .logo {
   margin-top: 30px;
@@ -31,12 +30,11 @@ header {
   color: #4b5d68;
 }
 .demo_btn {
-  margin-top:15px;
-
+  display: block;
+  margin-top: 15px;
 }
 .request_demo_header {
-
-  margin-left: 418px;
+  display: flex;
   padding: 17px 29px 17px 29px;
   background: #ffffff;
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
@@ -47,13 +45,7 @@ header {
   font-size: 16px;
   line-height: 160%;
   text-decoration: none;
-  align-items: center;
-  text-align: center;
-  vertical-align: middle;
   letter-spacing: 0.005em;
   color: #212353;
-}
-.arrow_btn {
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-right: 240px;
 }
