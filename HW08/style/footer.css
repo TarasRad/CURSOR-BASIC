@@ -1,17 +1,19 @@
 footer {
   display: block;
   width: 100%;
-  justify-content: space-between;
   padding: 32px 205px 28px 165px;
   margin: 0 auto;
-  background: #ffffff;
+  background: #e5e5ea;
+  justify-content: center;
+  align-items: center;
 }
 .nav-footer {
   display: flex;
   max-width: 1110px;
   width: 100%;
   justify-content: space-between;
-}
+  background: #ffffff;
+background-size: 100%;}
 
 .logo-footer {
   font-family: "Rochester";

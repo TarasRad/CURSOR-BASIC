@@ -6,6 +6,8 @@
   padding-left: 164px;
   margin: 0 auto;
   margin-top: 17px;
+  justify-content: center;
+  align-items: center;
 }
 .h1-section1 {
   width: 361px;
