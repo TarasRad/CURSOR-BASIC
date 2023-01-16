@@ -10,10 +10,9 @@
   align-items: center;
 }
 .data-section1 {
+  display: block;
   max-width: 1110px;
   width: 100%;
-  
-
 }
 .h1-section1 {
   width: 361px;
@@ -37,6 +36,9 @@
   margin-bottom: 57px;
 }
 .btn-show-more-section1 {
+  display: block;
+  width: 255px;
+height: 77px;
   background: #1b2437;
   border-radius: 15px;
   padding: 23px 78px;
