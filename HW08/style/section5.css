@@ -4,6 +4,8 @@
   display: block;
   margin: 0 auto;
   margin-left: 165px;
+  justify-content: center;
+  align-items: center;
 }
 
 .h2-section5 {
