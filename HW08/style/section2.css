@@ -120,7 +120,6 @@
   max-width: 93px;
   height: 30px;
   width: 100%;
-  background: rgb(rgba(255, 255, 255, 0.4));
   border-radius: 8px;
   padding: 0 22px;
   border: none;
@@ -131,5 +130,6 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
-  color: rgb(rgba(255, 255, 255));
+  background-color: rgb(255, 255, 255, 0.4);
+  color: #ffffff;
 }

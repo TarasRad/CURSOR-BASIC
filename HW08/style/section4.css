@@ -87,6 +87,7 @@
   box-shadow: 2px 5px 45px rgba(237, 163, 181, 0.25);
   border-radius: 0 0 16px 16px;
   padding: 16px 18px 18px 24px;
+  align-items: center;
 }
 .price-divs {
   width: 92px;
@@ -98,10 +99,10 @@
   line-height: 30px;
   color: #000000;
 }
-.shop-now-div1 {
+.shop-now-div {
   display: block;
   width: 153px;
-  background: #eda3b5;
+  background: #1b2437;
   border-radius: 15px;
   font-family: "Mulish";
   font-style: normal;
@@ -111,6 +112,9 @@
   text-align: center;
   color: #ffffff;
   padding: 13px;
+}
+.shop-now-div:hover {
+  background-color: #eda3b5;
 }
 .shop-now-div2 {
   display: block;

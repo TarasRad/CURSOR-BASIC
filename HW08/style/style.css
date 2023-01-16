@@ -2,10 +2,11 @@ body {
   display: block;
   max-width: 1439px;
   width: 100%;
-  background: #e5e5e5;
+  background: #ffffff;
 }
 main {
   margin: 0 auto;
+  background: #ffffff;
 }
 
 *,
