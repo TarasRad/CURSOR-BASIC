@@ -1,7 +1,9 @@
 .section5 {
+  max-width: 1110px;
   width: 100%;
   display: block;
   margin: 0 auto;
+  margin-left: 165px;
 }
 
 .h2-section5 {
