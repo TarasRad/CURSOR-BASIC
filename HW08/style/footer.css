@@ -4,6 +4,8 @@ footer {
   justify-content: space-between;
   padding: 32px 200px 28px 165px;
   margin: 0 auto;
+  background: #ffffff;
+  margin-top: 70px;
 }
 .nav-footer {
   display: flex;
@@ -54,6 +56,7 @@ ul {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  background: #e5e5ea;
 }
 
 .icons-social {
