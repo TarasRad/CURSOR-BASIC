@@ -31,6 +31,7 @@
   align-items: center;
   border-radius: 16px;
   vertical-align: middle;
+  cursor: pointer;
 }
 
 .h3-divs {
