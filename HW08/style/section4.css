@@ -50,6 +50,7 @@
   height: 44px;
   margin-top: 16px;
   margin-left: 290px;
+  cursor: pointer;
 }
 .data-div1 {
   width: 350px;
@@ -112,6 +113,7 @@
   text-align: center;
   color: #ffffff;
   padding: 13px;
+  cursor: pointer;
 }
 .shop-now-div:hover {
   background-color: #eda3b5;

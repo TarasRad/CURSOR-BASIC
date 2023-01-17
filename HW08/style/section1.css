@@ -36,7 +36,7 @@
   margin-bottom: 57px;
 }
 .btn-show-more-section1 {
-  display: block;
+  display: flex;
   width: 255px;
   height: 77px;
   background: #1b2437;
@@ -48,6 +48,8 @@
   font-size: 18px;
   line-height: 30px;
   color: #ffffff;
+  border: none;
+  cursor: pointer;
 }
 .btn-show-more-section1:hover {
   background-color: #eda3b5;

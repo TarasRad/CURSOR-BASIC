@@ -1,13 +1,19 @@
 header {
-  display: flex;
+  display: block;
   max-width: 1110px;
   width: 100%;
   margin: 0 auto;
   justify-content: space-between;
+  align-items: center;
   padding-top: 16px;
   background: #ffffff;
 }
-
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1110px;
+  width: 100%;
+}
 .logo {
   font-family: "Rochester", cursive;
   font-style: normal;
