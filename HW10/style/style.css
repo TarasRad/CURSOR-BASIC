@@ -32,6 +32,7 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  
 }
 
 ul[class],
@@ -66,6 +67,10 @@ select {
 @font-face {
   font-family: "Lato 700";
   src: url("../font/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: "Lato 500";
+  src: url("../font/Lato-Medium.ttf");
 }
 @font-face {
   font-family: "Lato 400";
