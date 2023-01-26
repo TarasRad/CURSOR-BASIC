@@ -1,0 +1,70 @@
+:root {
+  --btn-width: 200px;
+  --btn-height: 30px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background-color: orange;
+}
+
+.source {
+  border: none;
+  color: white;
+  position: absolute;
+  border-radius: 30px;
+  width: var(--btn-width);
+  height: var(--btn-height);
+  background-color: pink;
+  transition: transform 0.6s;
+  animation: knife1 2s forwards infinite ease-out;
+  animation-play-state: paused;
+}
+
+.anekein {
+  animation-name: knife2;
+}
+
+.wrapper {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: var(--btn-width);
+  height: var(--btn-height);
+  transform: translate(-50%, -50%);
+}
+
+.actions {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+@keyframes knife1 {
+  to {
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes knife2 {
+  to {
+    transform: rotate(-15deg);
+  }
+}
+
+.anekein {
+  background-color: green;
+}
+
+.sword {
+    d
+}

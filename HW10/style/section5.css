@@ -123,7 +123,7 @@
     width: fit-content;
     
   } */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 550px) {
   body {
     margin: 0 auto;
   }
@@ -135,6 +135,7 @@
   }
   .header-section5 {
     display: block;
+    max-width: 360px;
     width: 100%;
     justify-content: center;
     align-items: center;

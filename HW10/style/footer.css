@@ -84,7 +84,7 @@ margin-right: 17px;
     margin-right: 17px;
     }
 
-    @media screen and (max-width: 360px) {
+    @media screen and (max-width: 550px) {
         body {
           margin: 0 auto;
         }
@@ -96,6 +96,7 @@ margin-right: 17px;
         justify-content: space-between;
         align-items: center;
         padding: 41px 20px 45px 19px;
+        margin: 0 auto;
         }
         
         .social-footer {

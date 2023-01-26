@@ -99,11 +99,13 @@
   display: none;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 550px) {
   body {
     margin: 0 auto;
   }
   .section3 {
+    max-width: 360px;
+    width: 100%;
     display: block;
     margin: 0 auto;
     padding: 62px 20px 0 20px;

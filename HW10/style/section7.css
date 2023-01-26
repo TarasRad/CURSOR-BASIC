@@ -36,7 +36,7 @@
     display: block;
     margin-right: 35.9px;
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 550px) {
     body {
       margin: 0 auto;
     }

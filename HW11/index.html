@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursor-Basic - HW11</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+    <div class="sword">
+        
+    </div>
+    
+
+
+    <div class="box">
+        <div class="wrapper">
+          <div class="source"></div>
+          <div class="source anekein"></div>
+        </div>
+  
+        <div class="actions">
+          <button class="on">On</button>
+          <button class="off">Off</button>
+        </div>
+      </div>
+  
+      <script>
+        const btn1 = document.querySelector(".on");
+        const btn2 = document.querySelector(".off");
+  
+        const anim1 = document.querySelector(".source");
+        const anim2 = document.querySelector(".anekein");
+  
+        btn1.onclick = () => {
+          anim1.style.animationPlayState = "running";
+          anim2.style.animationPlayState = "running";
+        };
+  
+        btn2.onclick = () => {
+          anim1.style.animationPlayState = "paused";
+          anim2.style.animationPlayState = "paused";
+        };
+      </script>
+
+
+
+
+</body>
+</html>
