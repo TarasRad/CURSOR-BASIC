@@ -123,6 +123,70 @@
     width: fit-content;
     
   } */
+
+
+  @media screen and (max-width: 767px) {
+    body {
+      margin: 0 auto;
+    }
+    .section5 {
+      display: block;
+      max-width: 767px;
+      width: 100%;
+      position: relative;
+      margin: 0 auto;
+    }
+    .header-section5 {
+      display: block;
+      max-width: 767px;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .h2-section5 {
+      font-family: "Lato 700";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 37px;
+      color: #333333;
+    }
+    .slider-for {
+      display: block;
+      max-width: 767px;
+      width: 100%;
+      background: #ffffff;
+      padding: 0 25px 0 26px;
+    }
+    .slider-child1 {
+      display: block;
+      width: 309px;
+      height: 161px;
+      background: #ffffff;
+      border: 1px solid #828282;
+      border-radius: 4px;
+    }
+    .prev {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 52%;
+      left: 5%;
+    }
+    .next {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 52%;
+      left: 90%;
+    }
+    
+  }
+
+
 @media screen and (max-width: 550px) {
   body {
     margin: 0 auto;
@@ -132,6 +196,7 @@
     max-width: 360px;
     width: 100%;
     position: relative;
+    margin: 0 auto;
   }
   .header-section5 {
     display: block;
@@ -178,6 +243,70 @@
     align-items: center;
     position: absolute;
     top: 52%;
-    left: 86%;
+    left: 76%;
   }
+  
+}
+
+
+
+@media screen and (max-width: 550px) {
+  body {
+    margin: 0 auto;
+  }
+  .section5 {
+    display: block;
+    max-width: 360px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+  .header-section5 {
+    display: block;
+    max-width: 360px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .h2-section5 {
+    font-family: "Lato 700";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+  }
+  .slider-for {
+    display: block;
+    max-width: 360px;
+    width: 100%;
+    background: #ffffff;
+    padding: 0 25px 0 26px;
+  }
+  .slider-child1 {
+    display: block;
+    width: 309px;
+    height: 161px;
+    background: #ffffff;
+    border: 1px solid #828282;
+    border-radius: 4px;
+  }
+  .prev {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 52%;
+    left: 7.08%;
+  }
+  .next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 52%;
+    left: 76%;
+  }
+  
 }

@@ -7,7 +7,7 @@
    padding: 76px 166px 66px 164px;
   justify-content: space-between;
 }
-.h2section4 {
+.h2-section4 {
   display: block;
   text-align: center;
   font-family: "Lato 700";
@@ -36,11 +36,85 @@
   color: #ffffff;
 }
 .img1 {
+  
     margin-bottom: 7.67px;
 }
 .img2 {
     display: none;
 }
+
+
+@media screen and (max-width: 767px) {
+ 
+
+  
+  body {
+  margin: 0 auto;
+}
+.section4 {
+  display: block;
+  max-width: 767px;
+  width: 100%;
+  margin: 0 auto;
+  background: url(../img/section4/bg.png);   margin: 0 auto;
+padding: 5%;
+}
+.h2-section4 {
+  display: block;
+  text-align: center;
+  font-family: "Lato 700";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  color: #ffffff;
+  margin-bottom: 5%;
+}
+.grid-section4 {
+  
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+.grid-section4 div {
+  display: block;
+justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 1%;
+}
+.grid-section4 span {
+  font-family: "Lato 400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.img1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto ;
+  margin-bottom: 7.67px;
+}
+.img2 {
+  display: none;
+
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto ;
+  margin-bottom: 7.67px;
+  
+}
+.grid1 {
+
+}
+}
+
+
 @media screen and (max-width: 550px) {
  
 
@@ -55,6 +129,7 @@
     margin: 0 auto;
     padding: 42px 21px 69px;
     background: #FAFAFA;
+    margin: 0 auto;
   }
   .h2section4 {
     display: block;

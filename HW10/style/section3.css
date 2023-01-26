@@ -99,6 +99,119 @@
   display: none;
 }
 
+
+@media screen and (max-width: 767px) {
+  body {
+    margin: 0 auto;
+  }
+  .section3 {
+    max-width: 767px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+  }
+  .data-section3 {
+    max-width: 360px;
+    width: 100%;
+    display: block;
+    background: none;
+    padding: 0 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+  }
+  .get-started {
+    display: block;
+    font-family: "Lato 700";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00adee;
+    margin-bottom: 5%;
+
+  }
+  .h2-section3 {
+    display: block;
+    font-family: "Lato 700";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+    margin-bottom: 5%;
+  }
+  .p1-section3 {
+    max-width: 480px;
+    font-family: "Lato 400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #4f4f4f;
+    margin-bottom: 2%;
+  }
+  .p2-section3 {
+    max-width: 480px;
+    font-family: "Lato 400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #4f4f4f;
+    margin-bottom: 5%;
+
+  }
+  .lern-more-section3 {
+    font-family: "Lato 700";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00adee;
+    margin: 0;
+  }
+  .right-side-section3 {
+    display: block;
+    max-width: 767px;
+width: 100%;  
+}
+
+  .phone {
+    display: block;
+    max-width: 202.92px;
+    top: 27%;
+    left: 57%;
+  }
+
+  .ring-icon {
+    display: block;
+    position: absolute;
+    max-width: 71.85px;
+    top: 120px;
+    left: 58%;
+  }
+  .chart-icon {
+    display: block;
+    position: absolute;
+    max-width: 71.85px;
+    top: 81%;
+    left: 76%;
+  }
+
+  .phone-icon,
+  .dot-icon {
+    display: none;
+   
+  }
+
+}
+
+
+
 @media screen and (max-width: 550px) {
   body {
     margin: 0 auto;
