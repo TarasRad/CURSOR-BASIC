@@ -1,0 +1,108 @@
+.section4 {
+  display: block;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  background: url(../img/section4/bg.png); 
+   padding: 76px 166px 66px 164px;
+  justify-content: space-between;
+}
+.h2section4 {
+  display: block;
+  text-align: center;
+  font-family: "Lato 700";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  color: #ffffff;
+  margin-bottom: 59px;
+}
+.grid-section4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-section4 div {
+  display: grid;
+  max-width: 311px;
+  margin-bottom: 39.33px;
+}
+.grid-section4 span {
+  font-family: "Lato 400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.img1 {
+    margin-bottom: 7.67px;
+}
+.img2 {
+    display: none;
+}
+@media screen and (max-width: 360px) {
+ 
+
+  
+    body {
+    margin: 0 auto;
+  }
+  .section4 {
+    display: block;
+    max-width: 360px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 42px 21px 69px;
+    background: #FAFAFA;
+  }
+  .h2section4 {
+    display: block;
+    font-family: "Lato 700";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 57px;
+  }
+  .grid-section4 {
+    
+    display: block;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+  }
+  .grid-section4 div {
+    display: block;
+    margin-bottom: 54px;
+justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .grid-section4 span {
+    font-family: 'Lato 400';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+text-align: center;
+color: #4F4F4F;
+  }
+.img1 {
+    display: none;
+}
+.img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto ;
+    margin-bottom: 7.67px;
+    
+}
+.grid1 {
+
+}
+}

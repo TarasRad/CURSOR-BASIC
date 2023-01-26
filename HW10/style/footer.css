@@ -1,0 +1,136 @@
+footer {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+background: #00ADEE;
+justify-content: space-between;
+align-items: center;
+padding: 48px 162px 47px 163px;
+}
+.right-part-footer {
+    display: flex;
+}
+.menu-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.social-footer {
+    display: flex;
+}
+.download {
+    display: block;
+    margin-right: 37px;
+    width: 100%;
+    font-family: 'Lato 700';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+justify-content: space-between;
+}
+.support {
+    display: block;
+    margin-right: 36px;
+    width: 100%;
+    font-family: 'Lato 700';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+justify-content: space-between;
+}
+.developers {
+    display: block;
+    margin-right: 37px;
+    width: 100%;
+    font-family: 'Lato 700';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+justify-content: space-between;
+}
+.privacy {
+    width: 100%;
+    font-family: 'Lato 700';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+justify-content: space-between;
+}
+.menu-footer a {
+    display: block;
+    width: 100%;
+    font-family: 'Lato 700';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+justify-content: space-between;
+}
+
+.img-twitter-footer {
+margin-right: 17px;
+}
+.img-facebook-footer {
+    margin-right: 17px;
+    }
+
+    @media screen and (max-width: 360px) {
+        body {
+          margin: 0 auto;
+        }
+        footer {
+            display: block;
+            max-width: 360px;
+            width: 100%;
+        background: #00ADEE;
+        justify-content: space-between;
+        align-items: center;
+        padding: 41px 20px 45px 19px;
+        }
+        
+        .social-footer {
+            display: flex;
+order: 2;
+        }
+        .download {
+            display: flex;
+            margin: auto;
+        }
+        .support {
+            display: flex;
+            margin: auto;
+
+        }
+        .developers {
+            display: flex;
+            margin: auto;
+
+        }
+        .privacy {
+            display: flex;
+            margin: auto;
+
+        }
+.menu-footer {
+    display: flex;
+    max-width: 360px;
+    width: 100%;
+    justify-content: space-between;
+    order: 3;
+
+    
+}
+
+
+
+    }

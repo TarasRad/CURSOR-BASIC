@@ -1,0 +1,72 @@
+.section7 {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.left-side-section7 {
+    display: flex;
+
+}
+.h2-section7 {
+    font-family: 'Lato 700';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+    margin-top: 105px;
+    margin-bottom: 35px;
+}
+.p-section7 {
+    max-width: 535px;
+    width: 100%;
+    font-family: 'Lato 400';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #4F4F4F;
+    margin-bottom: 38px;
+}
+.appstores {
+    display: flex;
+}
+.appstore {
+    display: block;
+    margin-right: 35.9px;
+}
+@media screen and (max-width: 360px) {
+    body {
+      margin: 0 auto;
+    }
+    .section7 {
+        display: grid;
+        max-width: 360px;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 19px 20px 0 20px;
+    }
+    .left-side-section7 {
+        display: flex;
+        order: 2;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+.appstores {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 46px;
+}
+.appstore {
+    display: block;
+    margin: 0;
+}
+
+
+
+}
