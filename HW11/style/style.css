@@ -1,6 +1,6 @@
 :root {
-  --btn-width: 200px;
-  --btn-height: 30px;
+  --sword-width: 200px;
+  --sword-height: 15px;
 }
 
 body {
@@ -11,60 +11,187 @@ body {
 }
 
 .box {
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   position: relative;
-  background-color: orange;
+  background-color: rgb(45, 38, 26);
 }
 
-.source {
+.sword {
   border: none;
   color: white;
   position: absolute;
   border-radius: 30px;
-  width: var(--btn-width);
-  height: var(--btn-height);
-  background-color: pink;
+  width: var(--sword-width);
+  height: var(--sword-height);
+  background-color: purple;
   transition: transform 0.6s;
-  animation: knife1 2s forwards infinite ease-out;
+  animation: sword1 1s forwards infinite linear;
   animation-play-state: paused;
+  box-shadow: 0px 0px 15px 7px purple;
 }
-
+.handle-sword1 {
+  width: 20%;
+  height: 100%;
+  background: black;
+  margin-left: 75%;
+}
+.handle-sword2 {
+  width: 20%;
+  height: 100%;
+  background: black;
+  margin-left: 5%;
+}
 .anekein {
-  animation-name: knife2;
+  animation-name: sword2;
+  box-shadow: 0px 0px 15px 7px pink;
 }
 
 .wrapper {
   top: 50%;
   left: 50%;
   position: absolute;
-  width: var(--btn-width);
-  height: var(--btn-height);
+  width: var(--sword-width);
+  height: var(--sword-height);
   transform: translate(-50%, -50%);
 }
 
 .actions {
-  right: 0;
-  bottom: 0;
+  left: 190px;
+  bottom: 100px;
   position: absolute;
 }
-
-@keyframes knife1 {
+.on,
+.off {
+  background: pink;
+  color: blue;
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+}
+.on:hover,
+.off:hover {
+  background: rgb(234, 118, 137);
+  box-shadow: 0px 0px 15px 7px rgb(238, 245, 48);
+}
+@keyframes sword1 {
   to {
-    transform: rotate(15deg);
+    transform: rotate(25deg);
   }
 }
 
-@keyframes knife2 {
+@keyframes sword2 {
   to {
-    transform: rotate(-15deg);
+    transform: rotate(-25deg);
   }
 }
 
 .anekein {
-  background-color: green;
+  background-color: pink;
 }
 
-.sword {
-    d
+/*  */
+
+.newton_cradle {
+  display: flex;
+  position: relative;
+  margin-left: 20px;
+  width: 450px;
+  height: 160px;
+  padding: 0 0 0 25px;
+  border-top: 10px solid rgb(90, 90, 90);
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.ball {
+  z-index: -1;
+  float: left;
+  position: relative;
+  margin-top: 100px;
+  width: 50px;
+  height: 50px;
+  /* background: repeating-linear-gradient(45deg, black, transparent 100px);
+  background: radial-gradient(
+    circle at 65% 15%,
+    white 1px,
+    lightgray 3%,
+    gray 60%,
+    lightgray 100%
+  ); */
+  background: linear-gradient(rgb(129, 129, 255), rgb(3, 133, 77));
+
+  box-shadow: 1px 5px 10px 3px rgb(0 0 0 / 10%);
+  border-radius: 100%;
+  transform-origin: 50% -100px;
+}
+
+.ball::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: white;
+  filter: blur(5px);
+}
+
+.ball::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -100px;
+  left: 24px;
+  height: 100px;
+  width: 1px;
+  background: gray;
+}
+.actions2 {
+  left: 175px;
+  top: 200px;
+  position: absolute;
+}
+.start,
+.stop {
+  background: rgb(243, 117, 117);
+  color: azure;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.start:hover,
+.stop:hover {
+  background: red;
+  box-shadow: 0px 0px 15px 7px pink;
+}
+.ball:nth-child(1) {
+  animation: ball1 0.5s infinite alternate 0.5s ease-out;
+  animation-play-state: paused;
+}
+.ball:nth-child(7) {
+  animation: ball7 0.5s infinite alternate ease-out;
+  animation-play-state: paused;
+}
+
+@keyframes ball1 {
+  0%,
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
+@keyframes ball7 {
+  0%,
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-45deg);
+  }
 }

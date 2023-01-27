@@ -5,20 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cursor-Basic - HW11</title>
+
+
     <link rel="stylesheet" href="./style/style.css">
+
 </head>
 <body>
 
-    <div class="sword">
-        
-    </div>
+   
     
 
 
     <div class="box">
         <div class="wrapper">
-          <div class="source"></div>
-          <div class="source anekein"></div>
+          <div class="sword">
+            <div class="handle-sword1">
+
+            </div>
+          </div>
+          <div class="sword anekein">
+            <div class="handle-sword2">
+
+            </div>
+          </div>
         </div>
   
         <div class="actions">
@@ -31,7 +40,7 @@
         const btn1 = document.querySelector(".on");
         const btn2 = document.querySelector(".off");
   
-        const anim1 = document.querySelector(".source");
+        const anim1 = document.querySelector(".sword");
         const anim2 = document.querySelector(".anekein");
   
         btn1.onclick = () => {
@@ -45,6 +54,39 @@
         };
       </script>
 
+
+<div class="newton_cradle">
+  <div class="ball"></div>
+  <div class="ball"></div>
+  <div class="ball"></div>
+  <div class="ball"></div>
+  <div class="ball"></div>
+  <div class="ball"></div>
+  <div class="ball"></div>
+
+  <div class="actions2">
+    <button class="start">Start</button>
+    <button class="stop">Stop</button>
+  </div>
+
+  <script>
+    const btn3 = document.querySelector(".start");
+    const btn4 = document.querySelector(".stop");
+
+    const anim3 = document.querySelector(".ball:nth-child(1)");
+    const anim4 = document.querySelector(".ball:nth-child(7)");
+
+    btn3.onclick = () => {
+      anim3.style.animationPlayState = "running";
+      anim4.style.animationPlayState = "running";
+    };
+
+    btn4.onclick = () => {
+      anim3.style.animationPlayState = "paused";
+      anim4.style.animationPlayState = "paused";
+    };
+  </script>
+</div>
 
 
 
