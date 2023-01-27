@@ -1,98 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cursor-Basic - HW11</title>
 
-
-    <link rel="stylesheet" href="./style/style.css">
-
-</head>
-<body>
-
-   
-    
-
-
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
     <div class="box">
-        <div class="container">
-          <div class="sword1">
-            <div class="handle-sword1">
-
-            </div>
-          </div>
-          <div class="sword2">
-            <div class="handle-sword2">
-
-            </div>
-          </div>
-          <div class="sword3">
-            <div class="handle-sword3">
-
-            </div>
+      <div class="container">
+        <div class="sword1">
+          <div class="handle-sword1"></div>
         </div>
-  
+        <div class="sword2">
+          <div class="handle-sword2"></div>
+        </div>
+        <div class="sword3">
+          <div class="handle-sword3"></div>
+        </div>
         <div class="actions">
           <button class="on">On</button>
           <button class="off">Off</button>
         </div>
       </div>
     </div>
-      <script>
-        const btn1 = document.querySelector(".on");
-        const btn2 = document.querySelector(".off");
-  
-        const anim1 = document.querySelector(".sword2");
-        const anim2 = document.querySelector(".sword3");
-  
-        btn1.onclick = () => {
-          anim1.style.animationPlayState = "running";
-          anim2.style.animationPlayState = "running";
-        };
-  
-        btn2.onclick = () => {
-          anim1.style.animationPlayState = "paused";
-          anim2.style.animationPlayState = "paused";
-        };
-      </script>
+    <script>
+      const btn1 = document.querySelector(".on");
+      const btn2 = document.querySelector(".off");
 
+      const anim1 = document.querySelector(".sword1");
+      const anim2 = document.querySelector(".sword2");
+      const anim3 = document.querySelector(".sword3");
 
-<!-- <div class="newton">
-  <div class="ball"></div>
-  <div class="ball"></div>
-  <div class="ball"></div>
-  <div class="ball"></div>
-  <div class="ball"></div>
-  <div class="ball"></div>
-  <div class="ball"></div>
+      btn1.onclick = () => {
+        anim1.style.animationPlayState = "running";
+        anim2.style.animationPlayState = "running";
+        anim3.style.animationPlayState = "running";
+      };
 
-  <div class="actions2">
-    <button class="start">Start</button>
-    <button class="stop">Stop</button>
-  </div>
-
-  <script>
-    const btn3 = document.querySelector(".start");
-    const btn4 = document.querySelector(".stop");
-
-    const anim3 = document.querySelector(".ball:nth-child(1)");
-    const anim4 = document.querySelector(".ball:nth-child(7)");
-
-    btn3.onclick = () => {
-      anim3.style.animationPlayState = "running";
-      anim4.style.animationPlayState = "running";
-    };
-
-    btn4.onclick = () => {
-      anim3.style.animationPlayState = "paused";
-      anim4.style.animationPlayState = "paused";
-    };
-  </script>
-</div> -->
-
-
-
-</body>
+      btn2.onclick = () => {
+        anim1.style.animationPlayState = "paused";
+        anim2.style.animationPlayState = "paused";
+        anim3.style.animationPlayState = "paused";
+      };
+    </script>
+  </body>
 </html>

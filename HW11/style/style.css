@@ -16,7 +16,8 @@ body {
   min-height: 600px;
   height: 30%;
   background-color: rgb(0, 0, 0);
- padding: 50px;
+  padding: 100px;
+  position: relative;
 }
 .container {
   display: block;
@@ -31,6 +32,12 @@ body {
   border-radius: 30px;
   border: 1px solid white;
   margin-bottom: 30px;
+  animation-name: animation1;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
 }
 .handle-sword1 {
   display: block;
@@ -40,6 +47,7 @@ body {
   background: black;
   margin-left: 5%;
 }
+
 .sword2 {
   display: flex;
   width: 200px;
@@ -48,7 +56,12 @@ body {
   border-radius: 30px;
   border: 1px solid white;
   margin-bottom: 30px;
-
+  animation-name: animation2;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
 }
 .handle-sword2 {
   display: block;
@@ -66,7 +79,12 @@ body {
   border-radius: 30px;
   border: 1px solid white;
   margin-bottom: 30px;
-
+  animation-name: animation3;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
 }
 .handle-sword3 {
   display: block;
@@ -76,94 +94,10 @@ body {
   background: black;
   margin-left: 5%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .wrapper {
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  width: var(--sword-width);
-  height: var(--sword-height);
-  transform: translate(-50%, -50%);
-}
-.box {
-  display: block;
-  width: 500px;
-  height: 500px;
-  position: relative;
-  background-color: rgb(45, 38, 26);
-}
-
-.sword1 {
-  border: none;
-  color: white;
-  position: absolute;
-  border-radius: 30px;
-  width: var(--sword-width);
-  height: var(--sword-height);
-  background-color: purple;
-  transition: transform 0.6s;
-  animation: sword1 1s forwards infinite linear;
-  animation-play-state: paused;
-  box-shadow: 0px 0px 15px 7px purple;
-}
-.sword2 {
-  animation-name: sword2;
-  box-shadow: 0px 0px 15px 7px pink;
-}
-.sword3 {
-  animation-name: sword3;
-  box-shadow: 0px 0px 15px 7px pink;
-}
-.handle-sword1 {
-  width: 20%;
-  height: 100%;
-  background: black;
-  margin-left: 75%;
-}
-.handle-sword2 {
-  width: 20%;
-  height: 100%;
-  background: black;
-  margin-left: 5%;
-}
-.handle-sword3 {
-  width: 20%;
-  height: 100%;
-  background: black;
-  margin-left: 5%;
-}
-
-
-
-
 .actions {
-  left: 190px;
-  bottom: 100px;
+  display: flex;
+  left: 140px;
+  top: 350px;
   position: absolute;
 }
 .on,
@@ -179,21 +113,34 @@ body {
   background: rgb(234, 118, 137);
   box-shadow: 0px 0px 15px 7px rgb(238, 245, 48);
 }
-@keyframes sword2 {
+
+@keyframes animation1 {
   to {
-    transform: rotate(25deg);
+    display: block;
+    opacity: 0%;
+    background: rgb(3, 254, 241);
+    border: 2px solid white;
+    box-shadow: 0px 0px 15px 7px rgb(3, 254, 241);
+    transform: translateY(-20px);
   }
 }
 
-@keyframes sword3 {
+@keyframes animation2 {
   to {
-    transform: rotate(-25deg);
+    /* transform: rotate(-45deg); */
+    transform: matrix(0.586, 0.8, -0.8, 0.586, 20, 55);
+    background: blue;
+    border: 2px solid white;
+    box-shadow: 0px 0px 15px 7px blue;
   }
 }
-
-.anekein {
-  background-color: pink;
+@keyframes animation3 {
+  to {
+    /* transform: rotate(-45deg); */
+    /* transform: matrix(0.586,0.8,-0.8,0.586,10,45); */
+    transform: matrix(0.586, -0.8, 0.8, 0.586, 10, 15);
+    background: rgb(255, 4, 4);
+    border: 2px solid white;
+    box-shadow: 0px 0px 15px 7px rgb(255, 0, 0);
+  }
 }
-
-
- */
