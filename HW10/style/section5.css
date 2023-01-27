@@ -1,6 +1,5 @@
 .section5 {
   display: block;
-  max-width: 1440px;
   width: 100%;
   position: relative;
 }
@@ -23,7 +22,6 @@
 }
 .slider-for {
   display: block;
-  max-width: 1440px;
   width: 100%;
   background: #ffffff;
   justify-content: center;
@@ -32,8 +30,9 @@
 }
 .slider-child1 {
   display: block;
-  width: 100%;
   max-width: 309px;
+
+  width: 100%;
   background: #ffffff;
   border: 1px solid #828282;
   border-radius: 4px;
@@ -131,14 +130,12 @@
     }
     .section5 {
       display: block;
-      max-width: 767px;
       width: 100%;
       position: relative;
       margin: 0 auto;
     }
     .header-section5 {
       display: block;
-      max-width: 767px;
       width: 100%;
       justify-content: center;
       align-items: center;
@@ -193,14 +190,12 @@
   }
   .section5 {
     display: block;
-    max-width: 360px;
     width: 100%;
     position: relative;
     margin: 0 auto;
   }
   .header-section5 {
     display: block;
-    max-width: 360px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -256,14 +251,12 @@
   }
   .section5 {
     display: block;
-    max-width: 360px;
     width: 100%;
     position: relative;
     margin: 0 auto;
   }
   .header-section5 {
     display: block;
-    max-width: 360px;
     width: 100%;
     justify-content: center;
     align-items: center;

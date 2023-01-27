@@ -1,6 +1,5 @@
 .section7 {
     display: flex;
-    max-width: 1440px;
     width: 100%;
     margin: 0 auto;
 }
@@ -31,6 +30,8 @@
 }
 .appstores {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 .appstore {
     display: block;
@@ -95,7 +96,7 @@
     }
     .section7 {
         display: grid;
-        max-width: 360px;
+        /* max-width: 360px; */
         width: 100%;
         margin: 0 auto;
         justify-content: center;
@@ -111,6 +112,7 @@
 }
 .appstores {
     display: flex;
+    width: 100%;
     justify-content: space-between;
     margin-bottom: 46px;
 }

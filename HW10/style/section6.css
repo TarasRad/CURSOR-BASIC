@@ -1,6 +1,5 @@
 .section6 {
   display: block;
-  max-width: 1440px;
   width: 100%;
   text-align: center;
   justify-content: center;
@@ -37,7 +36,6 @@
   }
   .section6 {
     display: block;
-    max-width: 767px;
     width: 100%;
     height: 409px;
     text-align: center;

@@ -1,6 +1,5 @@
 .section4 {
   display: block;
-  max-width: 1440px;
   width: 100%;
   margin: 0 auto;
   background: url(../img/section4/bg.png); 
@@ -53,7 +52,6 @@
 }
 .section4 {
   display: block;
-  max-width: 767px;
   width: 100%;
   margin: 0 auto;
   background: url(../img/section4/bg.png);   margin: 0 auto;
@@ -124,7 +122,6 @@ justify-content: center;
   }
   .section4 {
     display: block;
-    max-width: 360px;
     width: 100%;
     margin: 0 auto;
     padding: 42px 21px 69px;
