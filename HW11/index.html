@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cursor-Basic - HW11</title>
 
-    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/swords.css" />
+    <link rel="stylesheet" href="./style/balls.css" />
+
   </head>
   <body>
     <div class="box">
@@ -46,5 +48,44 @@
         anim3.style.animationPlayState = "paused";
       };
     </script>
+
+
+<div class="container">
+  <div class="newton">
+  <div class="ball1"></div>
+  <div class="ball"></div>
+  <div class="ball"></div>
+  <div class="ball"></div>
+  <div class="ball"></div>
+  <div class="ball"></div>
+  <div class="ball7"></div>
+</div>
+ <div class="actions2">
+    <button class="start">Start</button>
+    <button class="stop">Stop</button>
+  </div>
+</div>
+ 
+
+
+  <script>
+    const btn3 = document.querySelector(".start");
+    const btn4 = document.querySelector(".stop");
+
+    const anim4 = document.querySelector(".ball1");
+    const anim5 = document.querySelector(".ball7");
+
+    btn3.onclick = () => {
+      anim4.style.animationPlayState = "running";
+      anim5.style.animationPlayState = "running";
+    };
+
+    btn4.onclick = () => {
+      anim4.style.animationPlayState = "paused";
+      anim5.style.animationPlayState = "paused";
+    };
+  </script>
+
+
   </body>
 </html>
