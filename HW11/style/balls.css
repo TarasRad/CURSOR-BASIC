@@ -78,7 +78,8 @@
   }
   100% {
     transform: translate(-100px, -50px);
-
+    background-color: yellow;
+    border: 2px solid rgb(56, 133, 216);
   } 
   
   
@@ -95,6 +96,8 @@
     /* transform: translate(0); */
 
     transform: translate(100px, -50px);
+    background-color: yellow;
+    border: 2px solid rgb(56, 133, 216);
   } 
   
   
