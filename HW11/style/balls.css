@@ -13,6 +13,7 @@
   border-radius: 20px;
   box-shadow: -10px 10px 10px gray;
 }
+
 .actions2 {
   top: 80%;
   left: 40%;
@@ -39,11 +40,10 @@
   border-radius: 50%;
   border: 2px solid yellow;
   animation-name: animation4;
-  animation-duration: 0.5s;
-  animation-delay: 1s;
+  animation-duration: 2s;
   animation-direction: alternate;
   animation-timing-function: ease-out;
-  /* animation-play-state: paused; */
+  animation-play-state: paused;
   animation-iteration-count: infinite;
 }
 .ball {
@@ -62,32 +62,40 @@
   border-radius: 50%;
   border: 2px solid yellow;
   animation-name: animation5;
-  animation-duration: 0.5s;
-  /* animation-delay: 0; */
+  animation-duration: 2s;
+  animation-delay: 2s;
   animation-direction: alternate;
   animation-timing-function: ease-out;
-  /* animation-play-state: paused; */
+  animation-play-state: paused;
   animation-iteration-count: infinite;
   animation-fill-mode: backwards;
 }
 
 @keyframes animation4 {
-  from {
-    /* transform: translate(0 0); */
-  }
+  0%, 50% {
 
-  to {
-    transform: matrix(0.586, 0.8, -0.8, 0.586, -90, -50);
-    background-color: yellow;
+    transform: translate(0);
   }
+  100% {
+    transform: translate(-100px, -50px);
+
+  } 
+  
+  
+  
+ 
 }
 @keyframes animation5 {
-  from {
-    /* transform: translate(0 0); */
-  }
+  0%, 50%{
+    /* transform: translate(100px, -50px); */
 
-  to {
-    transform: matrix(0.586, 0.8, -0.8, 0.586, 90, -50);
-    background-color: yellow;
+    transform: translate(0);
   }
+  100%  {
+    /* transform: translate(0); */
+
+    transform: translate(100px, -50px);
+  } 
+  
+  
 }
