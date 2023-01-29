@@ -355,14 +355,10 @@
           </p>
         </div>
       </div>
-      <div class="actions">
-        <button class="arrow prev">
-          <img src="./img/section5/next.png" alt="" />
-        </button>
-        <button class="arrow next">
-          <img src="./img/section5/prev.png" alt="" />
-        </button>
-      </div>
+      <!-- <div class="actions">
+        <button class="arrow prev"><img src="./img/section5/next.png" alt="" /></button>
+        <button class="arrow next"><img src="./img/section5/prev.png" alt="" /></button>
+      </div> -->
     </section>
     <section class="section6">
       <div class="header-section6">
@@ -392,7 +388,7 @@
         </p>
         <div class="appstores">
           <img class="appstore" src="./img/section7/Apple Store.svg" alt="" />
-          <img src="./img/section7/Google Play.svg" alt="" />
+          <img class="googleplay" src="./img/section7/Google Play.svg" alt="" />
         </div>
       </div>
     </section>
@@ -443,6 +439,8 @@
     <script>
       $(".slider-for").slick({
         dots: true,
+        prevArrow: '<button class="arrow prev"><img src="./img/section5/next.png" alt="" /></button>',
+        nextArrow: '<button class="arrow next"><img src="./img/section5/prev.png" alt="" /></button>',
         infinite: true,
         speed: 300,
         slidesToShow: 3,
@@ -455,25 +453,33 @@
               slidesToScroll: 1,
               infinite: true,
               dots: true,
-            },
+              prevArrow: '        <button class="arrow prev"><img src="./img/section5/next.png" alt="" /></button>',
+              nextArrow: '<button class="arrow next"><img src="./img/section5/prev.png" alt="" /></button>',            },
           },
           {
             breakpoint: 767,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 1,
-            },
+              dots: true,
+              prevArrow: '<button class="arrow prev"><img src="./img/section5/next.png" alt="" /></button>',
+              nextArrow: '<button class="arrow next"><img src="./img/section5/prev.png" alt="" /></button>',            },
           },
           {
             breakpoint: 550,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
+              dots: true,
+              prevArrow: false,
+              nextArrow: '<button class="arrow next"><img src="./img/section5/prev.png" alt="" /></button>'
             },
           },
         ],
       });
 
+
+      
       // $('.slider-for').slick({
       //   slidesToShow: 3,
       //   slidesToScroll: 1,

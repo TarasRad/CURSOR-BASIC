@@ -1,6 +1,5 @@
 footer {
   display: flex;
-  max-width: 1440px;
   width: 100%;
   background: #00adee;
   justify-content: space-between;
@@ -87,7 +86,6 @@ footer {
   }
   footer {
     display: flex;
-    max-width: 767px;
     width: 100%;
     background: #00adee;
     justify-content: space-between;
@@ -133,7 +131,6 @@ footer {
   }
   footer {
     display: grid;
-    max-width: 360px;
     width: 100%;
     background: #00adee;
     justify-content: space-between;

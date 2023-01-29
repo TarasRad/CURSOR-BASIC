@@ -16,15 +16,20 @@
   line-height: 37px;
   color: #ffffff;
   margin-bottom: 59px;
+
 }
 .grid-section4 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+
 }
 .grid-section4 div {
   display: grid;
   max-width: 311px;
   margin-bottom: 39.33px;
+  margin: 0 auto;
+
 }
 .grid-section4 span {
   font-family: "Lato 400";
@@ -33,10 +38,13 @@
   font-size: 16px;
   line-height: 23px;
   color: #ffffff;
+  margin: 0 auto;
+
 }
 .img1 {
   
     margin-bottom: 7.67px;
+    
 }
 .img2 {
     display: none;
@@ -54,11 +62,14 @@
   display: block;
   width: 100%;
   margin: 0 auto;
-  background: url(../img/section4/bg.png);   margin: 0 auto;
-padding: 5%;
+  background: url(../img/section4/bg.png);
+padding: 2%;
+margin-right: 0;
+
 }
 .h2-section4 {
   display: block;
+max-width: 767px;
   text-align: center;
   font-family: "Lato 700";
   font-style: normal;
@@ -74,14 +85,17 @@ padding: 5%;
   justify-content: space-between;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-right: 0;
 
 }
 .grid-section4 div {
   display: block;
+  width: 100%;
 justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 1%;
+  margin: 5%;
+
 }
 .grid-section4 span {
   font-family: "Lato 400";
@@ -90,6 +104,9 @@ justify-content: center;
   font-size: 16px;
   line-height: 23px;
   color: #ffffff;
+  margin-right: 0;
+  margin: 5%;
+
 }
 .img1 {
   display: flex;
@@ -107,9 +124,7 @@ justify-content: center;
   margin-bottom: 7.67px;
   
 }
-.grid1 {
 
-}
 }
 
 
@@ -123,13 +138,16 @@ justify-content: center;
   .section4 {
     display: block;
     width: 100%;
-    margin: 0 auto;
-    padding: 42px 21px 69px;
     background: #FAFAFA;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
   }
-  .h2section4 {
+  .h2-section4 {
     display: block;
+    width: 80%;
     font-family: "Lato 700";
     font-style: normal;
     font-weight: 700;
@@ -137,24 +155,41 @@ justify-content: center;
     line-height: 37px;
     text-align: center;
     color: #333333;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     margin-bottom: 57px;
+
   }
   .grid-section4 {
     
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
     justify-content: center;
     align-items: center;
 text-align: center;
+margin: 0 auto;
+
   }
   .grid-section4 div {
     display: block;
+    width: 100%;
     margin-bottom: 54px;
 justify-content: center;
     align-items: center;
     text-align: center;
-    
-  }
+    margin: 0 auto;
+}
+.grid1 {
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
   .grid-section4 span {
+    display: block;
+    width: 100%;
     font-family: 'Lato 400';
 font-style: normal;
 font-weight: 400;
@@ -162,9 +197,11 @@ font-size: 16px;
 line-height: 23px;
 text-align: center;
 color: #4F4F4F;
-  }
+margin-right: 0;
+}
 .img1 {
     display: none;
+    
 }
 .img2 {
     display: flex;
@@ -174,7 +211,5 @@ color: #4F4F4F;
     margin-bottom: 7.67px;
     
 }
-.grid1 {
 
-}
 }

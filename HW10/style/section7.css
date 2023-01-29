@@ -5,7 +5,7 @@
 }
 .left-side-section7 {
     display: flex;
-
+margin-right: 5.3%;
 }
 .h2-section7 {
     font-family: 'Lato 700';
@@ -30,12 +30,15 @@
 }
 .appstores {
     display: flex;
-    width: 100%;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    
 }
 .appstore {
     display: block;
     margin-right: 35.9px;
+}
+.googleplay {
+    display: block;
 }
 
 @media screen and (max-width: 767px) {
@@ -81,12 +84,17 @@
 }
 .appstores {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 0;
 }
 .appstore {
     display: block;
-    margin: 0;
+width: 100px;
+margin-right: 10px;
+}
+.googleplay {
+    display: block;
+    width: 100px;
 }
 
 }
@@ -102,6 +110,8 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin: 0 auto;
+
     }
     .left-side-section7 {
         display: flex;
@@ -113,12 +123,11 @@
 .appstores {
     display: flex;
     width: 100%;
-    justify-content: space-between;
     margin-bottom: 46px;
 }
 .appstore {
     display: block;
-    margin: 0;
+    margin-right: 10px;
 }
 
 
