@@ -1,11 +1,25 @@
-/* header {
-    display: flex;
-    max-width: 1440px;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 0.4375rem;
+
+.block {
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+.logo {
+    display: block;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+}
+.nav {
+    justify-content: right;
+}
+header {
+    margin-bottom: 7px;
 }
 .header-after {
     display: flex;
@@ -16,34 +30,66 @@ height: 1px;
 margin: 0 auto;
 background: #DBDBDB;
 transform: matrix(1, 0, 0, -1, 0, 0);
+margin-bottom: 29px;
 }
-.logo {
+.ava {
     display: flex;
-    width: fit-content;
+    justify-content: center;
+    align-items: center;
 }
-.img-logo {
-    display: flex;
+.name, .followers, .description {
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+    
 }
-.rounded {
-    display: flex;
-    width: 30%;
-    text-align: center;
-    opacity: 0.8;
-}
+.description a {
+    text-decoration: none;
 
-.nav {
+}
+.stories {
     display: flex;
-    width: 20%;
     justify-content: space-between;
-} */
-/* .col {
-    background-color: #eee;
-    border: 1px solid #aaa;
-} */
-.block {
-    background-color: #ddd;
-    border: 1px solid #aaa;
-    padding: 5px;
+}
+.stories figure {
+    margin-bottom: 55px;
+
+}
+.name-after {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    content: "";
+height: 1px;
+margin: 0 auto;
+background: #DBDBDB;
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.posts-span {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.posts {
+    padding-top: 19px;
+
+}
+.tagged {
+    padding-top: 19px;
+
+}
+.posts:hover {
+    border-top: 2px solid black;
+}
+.tagged:hover {
+    border-top: 2px solid black;
+}
+.post-grid {
+   justify-content: center;
+    align-items: center;
     text-align: center;
-    height: 100%;
+}
+.grid-clild {
+    width: fit-content; 
+padding: 12px;
 }
