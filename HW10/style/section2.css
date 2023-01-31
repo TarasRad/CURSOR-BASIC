@@ -235,6 +235,265 @@ input:checked + label:after {
   color: #00adee;
   margin-top: 22px;
 }
+@media screen and (max-width: 1260px) {
+  body {
+    margin: 0 auto;
+  }
+  .section2 {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+  }
+  .right-side-section2 {
+    display: block;
+    width: 50%;
+    height: fit-content;
+    margin-left: 0;
+    padding: 0 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .what-it-does {
+    display: block;
+    font-family: "Lato 700";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #00adee;
+    margin-bottom: 2%;
+  }
+  .h2-section2 {
+    display: block;
+    font-family: "Lato 700";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+    margin-bottom: 2%;
+  }
+  .p1-section2 {
+    display: block;
+    font-family: "Lato 400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #4f4f4f;
+    margin: 0;
+    margin-bottom: 3%;
+  }
+  .p2-section2 {
+    display: block;
+    font-family: "Lato 400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #4f4f4f;
+    margin-bottom: 2%;
+  }
+
+  .learn-more {
+    display: block;
+    font-family: "Lato 700";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #00adee;
+    margin: 0;
+  }
+
+  .left-side-section2 {
+    display: block;
+    max-width: 360px;
+    width: 100%;
+
+  }
+  .img-bg-section2 {
+    width: 388px;
+    height: 360px;
+    object-fit: cover;
+  }
+  .bg-section2 {
+    display: block;
+    max-width: 360px;
+    width: 100%;
+    margin-right: 0;
+  }
+  .bg-section2::after {
+    display: block;
+    width: 100%;
+    background: linear-gradient(
+        270deg,
+        #ffffff 5.16%,
+        rgba(255, 255, 255, 0) 67.14%
+      ),
+      rgba(255, 255, 255, 0.5);
+    content: "";
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+  }
+
+  .match-notificstion {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    max-width: 247.21px;
+    width: 100%;
+    height: 149.58px;
+    left: 20px;
+    top: 70px;
+    background: #ffffff;
+    box-shadow: -22.0416px 23.8785px 48.9814px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    justify-content: space-between;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+  }
+  .text-info {
+    display: block;
+    text-align: left;
+  }
+  .span1-match {
+    display: block;
+    font-family: "Lato 700";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11.5188px;
+    line-height: 15px;
+    color: #4f4f4f;
+    margin-bottom: px;
+  }
+  .span2-match {
+    display: block;
+    max-width: 76.62px;
+    font-family: "Lato 500";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.3539px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 9.35px;
+  }
+  .span3-match {
+    display: block;
+    font-family: "Lato 400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.9812px;
+    line-height: 14px;
+    color: #000000;
+    margin-bottom: 11.51;
+  }
+  .logos {
+    display: flex;
+    margin-bottom: 26.61px;
+    margin: 0;
+    padding: 0;
+  }
+  .arsenal-logo {
+    width: 48.76px;
+    height: 57.53px;
+  }
+  .chelsea-logo {
+    width: 57.66px;
+    height: 57.53px;
+    margin-left: -10px;
+  }
+  .switcher {
+    display: block;
+    max-width: 247.21px;
+    width: 100%;
+    height: 33.8px;
+    background: #eeeeee;
+    border-radius: 0px 0px 4px 4px;
+    padding: 0;
+    margin: 0;
+    margin-top: 11.51px;
+  }
+  .span-switcher {
+    display: inline-flex;
+    font-family: "Lato 400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.9587px;
+    line-height: 17px;
+    color: #4f4f4f;
+    margin: 0;
+    padding: 0;
+    margin-left: 10.81px;
+    text-align: left;
+    margin-top: 9.35px;
+  }
+
+  input[type="checkbox"] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
+  label {
+    cursor: pointer;
+    width: 27.29px;
+    height: 12.58px;
+    background: #979797;
+    border-radius: 104.896px;
+    display: block;
+    position: relative;
+    margin-right: 12.23px;
+    margin-left: 15px;
+    margin-top: 2px;
+  }
+  label:after {
+    content: "";
+    position: absolute;
+    width: 14.41px;
+    height: 14.38px;
+    left: 0px;
+    top: -1px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0px 2.09791px 2.09791px rgba(0, 0, 0, 0.25);
+    margin: 0;
+  }
+
+  input:checked + label {
+    background: #0d63dc;
+  }
+
+  input:checked + label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-70%);
+  }
+
+  .video {
+    display: block;
+    position: absolute;
+    max-width: 247.21px;
+    width: 100%;
+    left: 92.79px;
+    top: 196.27px;
+    z-index: 1;
+  }
+}
 
 
 @media screen and (max-width: 767px) {

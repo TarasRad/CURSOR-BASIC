@@ -1,6 +1,5 @@
 .section1 {
   display: flex;
-  max-width: 1440px;
   width: 100%;
   /* position: relative; */
   margin: 0 auto;
