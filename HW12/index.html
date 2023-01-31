@@ -1,162 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cursor-Basic - HW11</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
 
-
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/header.css">
-    <link rel="stylesheet" href="./style/section1.css">
-    <link rel="stylesheet" href="./style/section2.css">
-    <link rel="stylesheet" href="./style/section3.css">
-
-
-</head>
-<body>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/section1.css" />
+    <link rel="stylesheet" href="./style/section2.css" />
+    <link rel="stylesheet" href="./style/section3.css" />
+  </head>
+  <body>
     <div class="container">
-        <header class="row">
+      <header class="row">
         <div class="col col-md-4">
-            <div class="block logo">            <img class="img-logo" src="./img/instagram.svg" alt=""></div>
-</div>
-        <div class="col col-md-4">
-            <div class="block search">            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-</div>
-            
+          <div class="block logo">
+            <img class="img-logo" src="./img/instagram.svg" alt="" />
           </div>
+        </div>
         <div class="col col-md-4">
-            <div class="block nav"><img src="./img/header_menu/Vector.svg" alt="">
-
-            <img src="./img/header_menu/5.svg" alt="">
-            <img src="./img/header_menu/Ellipse 11.svg" alt="">
-            <img src="./img/header_menu/Vector-1.svg" alt="">
-            <img src="./img/header_menu/Vector-2.svg" alt="">
-            <img src="./img/header_menu/Vector-3.svg" alt="">
-            <img src="./img/header_menu/Ellipse 37.svg" alt=""></div>
-            
-
+          <div class="block search">
+            <input
+              type="search"
+              class="form-control rounded"
+              placeholder="Search"
+              aria-label="Search"
+              aria-describedby="search-addon"
+            />
+          </div>
         </div>
-    </header>
-    
-    <div class="header-after col-md-12"></div>
+        <div class="col col-md-4">
+          <div class="block nav">
+            <img src="./img/header_menu/Vector.svg" alt="" />
 
-    <div class="container">
+            <img src="./img/header_menu/5.svg" alt="" />
+            <img src="./img/header_menu/Ellipse 11.svg" alt="" />
+            <img src="./img/header_menu/Vector-1.svg" alt="" />
+            <img src="./img/header_menu/Vector-2.svg" alt="" />
+            <img src="./img/header_menu/Vector-3.svg" alt="" />
+            <img src="./img/header_menu/Ellipse 37.svg" alt="" />
+          </div>
+        </div>
+      </header>
+
+      <div class="header-after col-md-12"></div>
+
+      <div class="container">
         <div class="account-info row">
-            <div class="ava col-md-4">
-                <img src="./img/big_circle.png" alt="">
+          <div class="ava col-md-4">
+            <img src="./img/big_circle.png" alt="" />
+          </div>
+          <div class="user-info col-md-8">
+            <div class="block name">
+              <span>name</span>
+              <button type="button" class="btn btn-primary">Follow</button>
+              <button
+                id="btnGroupDrop1"
+                type="button"
+                class="btn btn-primary dropdown-toggle"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              ></button>
+              <span class="dots-btn">...</span>
             </div>
-            <div class="user-info col-md-8">
-                <div class="block name">
-                    <span>name</span>
-                    <button type="button" class="btn btn-primary">Follow</button>
-                    <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      </button>
-                      <span class="dots-btn">...</span>
-
-                </div>
-                <div class="block followers">
-                    <span>79 posts</span>379 followers<span>179 following</span><span></span>
-                </div>
-                <div class="block description">
-                    <h4>Name</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                    <a href="bit.ly/35Ce3mX">bit.ly/35Ce3mX</a>
-                </div>
+            <div class="block followers">
+              <span>79 posts</span>379 followers<span>179 following</span
+              ><span></span>
             </div>
+            <div class="block description">
+              <h4>Name</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text.
+              </p>
+              <a href="bit.ly/35Ce3mX">bit.ly/35Ce3mX</a>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-
-    <div class="stories-row row">
+      <div class="stories-row row">
         <div class="stories col-md-4">
-           <div class="block stories"><figure>
-            <img src="./img/small_circle/Ellipse 42.png" alt="Stories 1">
-            <figcaption>Name</figcaption>
-        </figure>
-        <figure>
-            <img src="./img/small_circle/Ellipse 42.png" alt="Stories 2">
-            <figcaption>Name</figcaption>
-          </figure>
-        <figure>
-            <img src="./img/small_circle/Ellipse 42.png" alt="Stories 3">
-            <figcaption>Name</figcaption>
-        </figure></div>
-        
-    </div></div>
-    <div class="name-after col-md-12"></div>
+          <div class="block stories">
+            <figure>
+              <img src="./img/small_circle/Ellipse 42.png" alt="Stories 1" />
+              <figcaption>Name</figcaption>
+            </figure>
+            <figure>
+              <img src="./img/small_circle/Ellipse 42.png" alt="Stories 2" />
+              <figcaption>Name</figcaption>
+            </figure>
+            <figure>
+              <img src="./img/small_circle/Ellipse 42.png" alt="Stories 3" />
+              <figcaption>Name</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="name-after col-md-12"></div>
 
-<div class="posts-nav row">
-    <div class="posts-span block">
-        <span class="posts"><img src="./img/middle1.svg" alt="posts">POSTS</span>
-        <span class="tagged"><img src="./img/middle2.svg" alt="tagged">TAGGED</span>
-    </div>
-    
-</div>
-   
-<div class="post-grid row">
-    <div class="grid-clild col-12 col-xl-4 col-md-6">
-      <img src="./img/square/Rectangle 70.png" alt="">
-      
-    </div>
-    <div class="grid-clild col-xl-4 col-md-6">
-        <img src="./img/square/Rectangle 70.png" alt="">
-    </div>
-    <div class="grid-clild col-xl-4 col-md-6">
-        <img src="./img/square/Rectangle 70.png" alt="">
-    </div>
- 
-    <div class="grid-clild col-xl-4 col-md-6">
-        <img src="./img/square/Rectangle 70.png" alt="">
-    </div>
-    <div class="grid-clild col-xl-4 col-md-6">
-        <img src="./img/square/Rectangle 70.png" alt="">
-    </div>
-    <div class="grid-clild col-xl-4 col-md-6">
-        <img src="./img/square/Rectangle 70.png" alt="">
-    </div>
-  
- 
-    <div class="grid-clild col-xl-4 col-md-6 col-xs-12">
-        <img src="./img/square/Rectangle 70.png" alt="">
-    </div>
-    <div class="grid-clild col-xl-4 col-md-6 col-xs-12">
-        <img src="./img/square/Rectangle 70.png" alt="">
-    </div>
-    <div class="grid-clild col-xl-4 col-md-6 col-xs-12">
-        <img src="./img/square/Rectangle 70.png" alt="">
-    </div>
- 
-    <div class="grid-clild col-xl-4 col-md-6 col-xs-12">
-        <img src="./img/square/Rectangle 70.png" alt="">
-    </div>
-    <div class="grid-clild col-xl-4 col-md-6 col-xs-12">
-        <img src="./img/square/Rectangle 70.png" alt="">
-    </div>
-    <div class="grid-clild col-xl-4 col-md-6 col-xs-12">
-        <img src="./img/square/Rectangle 70.png" alt="">
-    </div>
-    <div class="grid-clild col-xl-4 col-md-6 col-xs-12">
-        <img src="./img/square/Rectangle 70.png" alt="">
-    </div>
-    <div class="grid-clild col-xl-4 col-md-6 col-xs-12">
-        <img src="./img/square/Rectangle 70.png" alt="">
-    </div>
-    <div class="grid-clild col-xl-4 col-md-6 col-xs-12">
-        <img src="./img/square/Rectangle 70.png" alt="">
-    </div>
-    <div class="grid-clild col-xl-4 col-md-6 col-xs-12">
-        <img src="./img/square/Rectangle 70.png" alt="">
-    </div>
-  </div>
+      <div class="posts-nav row">
+        <div class="posts-span block">
+          <span class="posts"
+            ><img src="./img/middle1.svg" alt="posts" />POSTS</span
+          >
+          <span class="tagged"
+            ><img src="./img/middle2.svg" alt="tagged" />TAGGED</span
+          >
+        </div>
+      </div>
+      <div class="grids block">
+        <div class="post-grid row">
+          <div class="grid-clild col-12 col-xl-4 col-md-6">
+            <img src="./img/square/Rectangle 70.png" alt="" />
+          </div>
+          <div class="grid-clild col-xl-4 col-md-6">
+            <img src="./img/square/Rectangle 70.png" alt="" />
+          </div>
+          <div class="grid-clild col-xl-4 col-md-6">
+            <img src="./img/square/Rectangle 70.png" alt="" />
+          </div>
+          <div class="grid-clild col-xl-4 col-md-6">
+            <img src="./img/square/Rectangle 70.png" alt="" />
+          </div>
 
+          <div class="grid-clild col-xl-4 col-md-6">
+            <img src="./img/square/Rectangle 70.png" alt="" />
+          </div>
+          <div class="grid-clild col-xl-4 col-md-6">
+            <img src="./img/square/Rectangle 70.png" alt="" />
+          </div>
+          <div class="grid-clild col-xl-4 col-md-6">
+            <img src="./img/square/Rectangle 70.png" alt="" />
+          </div>
+          <div class="grid-clild col-xl-4 col-md-6">
+            <img src="./img/square/Rectangle 70.png" alt="" />
+          </div>
+          <div class="grid-clild col-xl-4 col-md-6">
+            <img src="./img/square/Rectangle 70.png" alt="" />
+          </div>
+          <div class="grid-clild col-xl-4 col-md-6">
+            <img src="./img/square/Rectangle 70.png" alt="" />
+          </div>
+          <div class="grid-clild col-xl-4 col-md-6">
+            <img src="./img/square/Rectangle 70.png" alt="" />
+          </div>
+          <div class="grid-clild col-xl-4 col-md-6">
+            <img src="./img/square/Rectangle 70.png" alt="" />
+          </div>
+          <div class="grid-clild col-xl-4 col-md-6">
+            <img src="./img/square/Rectangle 70.png" alt="" />
+          </div>
+          <div class="grid-clild col-xl-4 col-md-6">
+            <img src="./img/square/Rectangle 70.png" alt="" />
+          </div>
+          <div class="grid-clild col-xl-4 col-md-6">
+            <img src="./img/square/Rectangle 70.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
 
-</div>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -1,95 +1,91 @@
-
-.block {
-    background-color: #ddd;
-    border: 1px solid #aaa;
-    padding: 5px;
-    text-align: center;
-}
-
-
-
+/* .block {
+  background-color: #ddd;
+  border: 1px solid #aaa;
+  padding: 5px;
+  text-align: center;
+} */
 
 .logo {
-    display: block;
-    justify-content: left;
-    align-items: flex-start;
-    text-align: left;
+  display: block;
+  justify-content: left;
+  align-items: flex-start;
+  text-align: left;
 }
 .nav {
-    justify-content: right;
+  justify-content: right;
 }
 header {
-    margin-bottom: 7px;
+  margin-bottom: 7px;
 }
 .header-after {
-    display: flex;
-    max-width: 1440px;
-    width: 100%;
-    content: "";
-height: 1px;
-margin: 0 auto;
-background: #DBDBDB;
-transform: matrix(1, 0, 0, -1, 0, 0);
-margin-bottom: 29px;
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  content: "";
+  height: 1px;
+  margin: 0 auto;
+  background: #dbdbdb;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  margin-bottom: 29px;
 }
 .ava {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.name, .followers, .description {
-    justify-content: left;
-    align-items: flex-start;
-    text-align: left;
-    
+.name,
+.followers,
+.description {
+  justify-content: left;
+  align-items: flex-start;
+  text-align: left;
 }
 .description a {
-    text-decoration: none;
-
+  text-decoration: none;
 }
 .stories {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .stories figure {
-    margin-bottom: 55px;
-
+  margin-bottom: 55px;
 }
 .name-after {
-    display: flex;
-    max-width: 1440px;
-    width: 100%;
-    content: "";
-height: 1px;
-margin: 0 auto;
-background: #DBDBDB;
-transform: matrix(1, 0, 0, -1, 0, 0);
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  content: "";
+  height: 1px;
+  margin: 0 auto;
+  background: #dbdbdb;
+  transform: matrix(1, 0, 0, -1, 0, 0);
 }
 .posts-span {
-    display: flex;
-    justify-content: center;
-    padding: 0;
+  display: flex;
+  justify-content: center;
+  padding: 0;
 }
 .posts {
-    padding-top: 19px;
-
+  padding-top: 19px;
 }
 .tagged {
-    padding-top: 19px;
-
+  padding-top: 19px;
 }
 .posts:hover {
-    border-top: 2px solid black;
+  border-top: 2px solid black;
 }
 .tagged:hover {
-    border-top: 2px solid black;
+  border-top: 2px solid black;
 }
 .post-grid {
-   justify-content: center;
-    align-items: center;
-    text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .grid-clild {
-    width: fit-content; 
-padding: 12px;
+  padding: 12px;
+}
+.grids {
+  max-width: 941px;
+  margin: 0 auto;
 }
