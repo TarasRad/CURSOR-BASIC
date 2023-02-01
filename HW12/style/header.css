@@ -4,22 +4,44 @@
   padding: 5px;
   text-align: center;
 } */
-
+.container {
+    display: block;
+    max-width: 942px;
+    width: 100%;
+}
+.top {
+    margin-top: 13px;
+}
 .logo {
   display: block;
-  justify-content: left;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: left;
   text-align: left;
 }
 .nav {
-  justify-content: right;
+  justify-content: space-around;
+  align-items: center;
+}
+.msg-icon {
+    position: relative;
+}
+.red-circle {
+    position: absolute;
+    left: 60%;
+    bottom: 50%;
+}
+.message-quantity {
+    position: absolute;
+    left: 85%;
+    bottom: 70%;
+    z-index: 1;
 }
 header {
   margin-bottom: 7px;
 }
 .header-after {
   display: flex;
-  max-width: 1440px;
+  max-width: 1459px;
   width: 100%;
   content: "";
   height: 1px;
@@ -32,21 +54,71 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .name,
 .followers,
 .description {
+    display: flex;
   justify-content: left;
   align-items: flex-start;
   text-align: left;
+  vertical-align: middle;
+}
+.name span {
+    width:min-content;
+    display: flex;
+    font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 32px;
+align-items: center;
+text-align: center;
+color: #262626;
+margin-right: 25px;
+}
+.btn1 {
+    margin-right: 8px;
+}
+.btn2 {
+    margin-right: 16px;
+}
+.followers span {
+    margin-right: 39px;
 }
 .description a {
   text-decoration: none;
 }
+.user-data {
+    display: block;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 56px;
+
+}
+.description {
+    display: block;
+}
+h4 {
+    display: block;
+}
+.user-info {
+    
+}
 .stories {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
 }
+figure {
+    margin-left:39px;
+}
+/* .stories-row {
+    margin: 0 auto;
+} */
 .stories figure {
   margin-bottom: 55px;
 }
@@ -67,6 +139,7 @@ header {
 }
 .posts {
   padding-top: 19px;
+  margin-right: 64px;
 }
 .tagged {
   padding-top: 19px;
@@ -77,15 +150,24 @@ header {
 .tagged:hover {
   border-top: 2px solid black;
 }
-.post-grid {
+/* .post-grid {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
+} */
 .grid-clild {
-  padding: 12px;
+    display: flex;
+    border: 2px solid rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    /* width: 297px;
+    height: 297px; */
 }
-.grids {
-  max-width: 941px;
-  margin: 0 auto;
+
+.squares {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
