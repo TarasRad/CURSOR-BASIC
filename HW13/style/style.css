@@ -129,11 +129,9 @@ h1 {
 }
 
 .section2 {
-  padding: 160px;
+  padding-top: 160px;
 }
 
-.title {
-  max-width: 255px;
-  width: 100%;
+.title1 {
   margin-right: 30px;
 }/*# sourceMappingURL=style.css.map */
