@@ -107,6 +107,9 @@ h4 {
 .user-info {
     
 }
+.posts-nav {
+    margin-bottom: 19px;
+}
 .stories {
   display: flex;
   justify-content:center;
