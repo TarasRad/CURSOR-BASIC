@@ -285,7 +285,6 @@ footer {
   content: "";
   height: 1px;
   margin: 0 auto;
-  margin-top: 40px;
   background: #CDD1D4;
   transform: matrix(1, 0, 0, -1, 0, 0);
 }
@@ -302,4 +301,8 @@ footer {
   max-width: 16px;
   width: 100%;
   margin-left: 30px;
+}
+
+.footer-nav {
+  margin-bottom: 2rem;
 }/*# sourceMappingURL=style.css.map */
