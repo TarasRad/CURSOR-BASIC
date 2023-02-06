@@ -305,4 +305,22 @@ footer {
 
 .footer-nav {
   margin-bottom: 2rem;
+}
+
+.footer-span a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #929ECC;
+}
+
+.copyright {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #939EA4;
 }/*# sourceMappingURL=style.css.map */

@@ -127,7 +127,10 @@ h4 {
   text-align: center;
 }
 figure {
-    margin-left:39px;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
 }
 /* .stories-row {
     margin: 0 auto;
@@ -151,14 +154,25 @@ figure {
   padding: 0;
 }
 .posts {
-  padding-top: 19px;
-  margin-right: 64px;
+  padding-top: 1.2rem;
+  margin-right: 4rem;
+  border-top: 2px solid transparent;
+
+}
+.posts img {
+  margin-right: 0.5rem;
+}
+.tagged img {
+  margin-right: 0.5rem;
 }
 .tagged {
-  padding-top: 19px;
+  padding-top: 1.2rem;
+  border-top: 2px solid transparent;
+
 }
 .posts:hover {
   border-top: 2px solid black;
+  
 }
 .tagged:hover {
   border-top: 2px solid black;
