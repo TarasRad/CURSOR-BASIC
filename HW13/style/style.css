@@ -214,8 +214,8 @@ h2 {
   width: 100%;
 }
 
-.section3 {
-  background-color: #f4f5ff;
+.section4 {
+  background-image: url(../img/clip-path.png);
 }
 
 .data-section3 {
@@ -247,6 +247,7 @@ h2 {
 }
 
 .price {
+  display: block;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -259,17 +260,18 @@ h2 {
 }
 
 .span2 {
+  display: block;
   margin: 0;
 }
 
 .span3 {
+  display: block;
   margin: 3.75rem 0 0.81rem 0;
 }
 
 footer {
   background-color: #e7ecff;
   padding-bottom: 2rem;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
 }
