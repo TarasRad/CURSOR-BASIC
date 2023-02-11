@@ -108,7 +108,7 @@ header .phone {
 }
 
 .yellow {
-    color: #ffdd00;
+    color: #ca8d13;
     text-shadow: 2px 2px 5px #000000;
 
 }
@@ -234,7 +234,8 @@ button {
     margin-bottom: 50px;
 }
 
-.about .param {
+.about .description-name
+ {
     font-size: 16px;
     font-family: "HelveticaNeueMedium";
 }
@@ -319,10 +320,10 @@ button {
     font-size: 14px;
 }
 
-.reasons .reason .h4 {
+.reasons .reason .h4-reason {
     font-size: 15px;
     font-family: "HelveticaNeueBold";
-    color: #f4d52a;
+    color: #ca8d13;
     margin-top: 5px;
     margin-bottom: 15px;
     text-shadow: 2px 2px 5px #000000;
