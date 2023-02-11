@@ -108,7 +108,9 @@ header .phone {
 }
 
 .yellow {
-    color: #ffdc00;
+    color: #ffdd00;
+    text-shadow: 2px 2px 5px #000000;
+
 }
 
 b {
@@ -239,7 +241,7 @@ button {
 
 .about .value {
     font-size: 14px;
-    color: #9a9a9a;
+    color: #414141;
     font-family: "HelveticaNeueLightItalic";
     margin-top: 10px;
 }
@@ -323,11 +325,12 @@ button {
     color: #f4d52a;
     margin-top: 5px;
     margin-bottom: 15px;
+    text-shadow: 2px 2px 5px #000000;
 }
 
 .reasons .reason .reason-text {
     font-size: 13px;
-    color: #8b8b8b;
+    color: #414141;
     width: 85%;
     margin: 0 auto;
 }
