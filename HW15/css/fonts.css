@@ -5,7 +5,6 @@
     url("../fonts/HelveticaNeueCyr-Black.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -14,7 +13,6 @@
     url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -23,7 +21,6 @@
     url("../fonts/HelveticaNeueCyr-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -32,7 +29,6 @@
     url("../fonts/HelveticaNeueCyr-Light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -41,7 +37,6 @@
     url("../fonts/HelveticaNeueCyr-Medium.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -50,7 +45,6 @@
     url("../fonts/HelveticaNeueCyr-Thin.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 /*@font-face {*/
 /*font-family: 'HelveticaNeueBoldItalic';*/
@@ -65,7 +59,6 @@
     url("../fonts/HelveticaNeueCyr-LightItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 /*@font-face {*/
