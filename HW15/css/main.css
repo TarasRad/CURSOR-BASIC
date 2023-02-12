@@ -445,10 +445,13 @@ button {
 
 .reviews .arrow-right {
     right: 50px;
+    background: none;
 }
 
 .reviews .arrow-left {
     left: 50px;
+    background: none;
+
 }
 
 .reviews .review-slider {
