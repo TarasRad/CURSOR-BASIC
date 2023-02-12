@@ -186,6 +186,7 @@ button {
 
 .main-screen img {
     width: 90%;
+    height: auto;
 }
 
 .main-screen .h1 {
