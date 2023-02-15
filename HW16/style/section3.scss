@@ -100,7 +100,51 @@
   .img__section3 {
     order: 2;
   }
-.main-span__section3 {
+
+.hiking__section3 {
   display: flex;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.24em;
+  color: #d3ba74;
+  align-items: center;
+  margin-left: 45%;
+  margin-top: 15%;
+}
+.h2__section3 {
+  display: block;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 70px;
+  color: #ffffff;
+}
+.p__section3 {
+  max-width: 511px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin: 0 auto;
+}
+.dont-miss__section3 {
+  position: absolute;
+  left: 15%;
+  top: -3rem;
+}
+.img__section3 {
+  display: flex;
+  margin: 0 auto;
+}
+.data__section3 {
+  position: relative;
+  justify-content: center;
 }
 }

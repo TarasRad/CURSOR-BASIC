@@ -98,6 +98,7 @@
     color: rgba(255, 255, 255, 0.13);
     position: absolute;
     left: 20%;
+    top: 62.5rem;
   }
   .info__adventure__section2 {
     margin: 0 auto;

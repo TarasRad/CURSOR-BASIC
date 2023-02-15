@@ -1,5 +1,4 @@
 footer {
-    padding-top: 2.5rem;
 
 }
 .social__footer {
@@ -8,4 +7,18 @@ footer {
 }
 .social__footer img {
     margin-left: 2.75rem;
+}
+@media screen and (max-width: 767px) {
+.logo__footer {
+    text-align: center;
+}
+
+.social__footer img {
+   margin: 0 20px;
+}
+}
+@media screen and (max-width: 767px) {
+    .social__footer {
+        justify-content: center;
+    }
 }
