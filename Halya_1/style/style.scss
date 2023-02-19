@@ -1,0 +1,20 @@
+$bg-color-1:#000000;
+$bg-color-2:#C5450F;
+$text-color:#FFFFFF;
+.btn {
+  max-width: 190px;
+  padding: 15px 29px;
+  background: $bg-color-2;
+  border-radius: 33px;
+  cursor: pointer;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+  color: $text-color;
+}
+.btn:hover {
+  background: #8e320a;
+  color: $text-color;
+}

@@ -1,0 +1,42 @@
+header {
+  background-color: #000000;
+  align-items: center;
+  padding: 60px;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+li {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: rgba(217, 217, 217, 0.7);
+  margin-right: 50px;
+}
+
+li:hover {
+  cursor: pointer;
+  color: #FFFFFF;
+}/*# sourceMappingURL=header.css.map */
