@@ -1,6 +1,7 @@
+$h1-font-size: 
 .section1 {
     background-image: url(../accets/img/section1-bg.png);
-    background-size: cover;
+    background-size: cover no-repeat;
     background-position: 0 -12.5rem;
     padding-top: 1%;
 }
@@ -53,4 +54,11 @@ font-size: 12px;
 line-height: 18px;
 color: #FFFFFF;
 margin-bottom: 30.375rem;
+}
+@media screen and (max-width: 767px) {
+    h1 {
+   
+
+        font-size: 60px;
+     }
 }

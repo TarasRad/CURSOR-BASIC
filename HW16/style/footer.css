@@ -14,8 +14,6 @@
   .social__footer img {
     margin: 0 20px;
   }
-}
-@media screen and (max-width: 767px) {
   .social__footer {
     justify-content: center;
   }
